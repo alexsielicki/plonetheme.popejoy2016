@@ -3,7 +3,128 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<div tal:on-error="nothing" tal:replace="structure view/render_footer_portlets" />
-				This will be footer links.
+
+				<div class="section mission">
+					<h3>Our Mission</h3>
+					<p>
+						To provide access to the performing arts
+						for all New Mexicans.
+					</p>
+				</div>
+
+				<div class="section">
+					<h3>Popejoy Hall</h3>
+					<ul>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								About Popejoy Hall
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Staff
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Connect Online
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Rent Popejoy
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Technical Specifications
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="section">
+					<h3>Plan Your Visit</h3>
+					<ul>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Frequently Asked Questions
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								What to Wear?
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Parking & Transportation
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Nearby Dining & Discounts
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								House Policies
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Kids
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="section">
+					<h3>Tickets</h3>
+					<ul>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Coming This Season
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Season Tickets
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Where to Buy Tickets
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Bringing a Group
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Seating Guide
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Ticket Policies
+							</a>
+						</li>
+						<li>
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+								Gift Certificates
+							</a>
+						</li>
+					</ul>
+				</div>
+
 			</div>
 		</div>
 	</div>

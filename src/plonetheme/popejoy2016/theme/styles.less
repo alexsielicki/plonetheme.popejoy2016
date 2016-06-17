@@ -2,6 +2,8 @@
 @import "++theme++barceloneta/less/barceloneta.plone.less";
 
 // Variables
+
+// Background colors
 @gray:        #6d6e71; // standard gray for nav and footer
 @gray-light:  #e2e2e3; // light gray for colophon and titles
 @black:       #000000; // black for current nav item
@@ -11,6 +13,9 @@
 // Text colors
 @white-text:  #ffffff; // plain white
 @black-text:  #000000; // plain black
+
+// Border colors
+@gray-border: #b4b4b5; 
 
 /* Hiding stuff */
 #portal-footer #portal-siteactions
@@ -41,6 +46,34 @@
 }
 #footer-background {
 	background-color: @gray-light;
+	color: @black-text;
+}
+#footer-background .section {
+	float: left;
+	margin-right: 40px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 23px;
+}
+#footer-background .section.mission {
+	width: 125px;
+}
+#footer-background .section h3 {
+	border-bottom: 1px solid @gray-border;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 4px;
+}
+#footer-background .section p {
+	border-bottom-width: 0;
+	padding-bottom: 0;
+}
+#footer-background .section ul {
+	padding: 0;
+	list-style: none;
+}
+#footer-background .section a {
 	color: @black-text;
 }
 #colophon-background {
