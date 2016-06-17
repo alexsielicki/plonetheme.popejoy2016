@@ -1,0 +1,11 @@
+<div id="colophon-background">
+	<div class="container"  id="portal-colophon" i18n:domain="plone">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="colophonWrapper">
+					<div>Copyright</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

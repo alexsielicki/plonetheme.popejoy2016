@@ -10,6 +10,7 @@
 
   <rules css:if-content="#visual-portal-wrapper">
     <!-- Placeholder for your own additional rules -->
+    <!-- <replace css:theme-children="#colophon-wrapper-wrapper" css:content-children="#portal-colophon" /> -->
   </rules>
 
 </rules>

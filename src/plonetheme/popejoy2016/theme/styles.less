@@ -1,13 +1,30 @@
 /* Import Barceloneta styles */
 @import "++theme++barceloneta/less/barceloneta.plone.less";
 
+// Variables
+@gray:        #6d6e71; // standard gray for nav and footer
+@gray-light:  #e2e2e3; // light gray for colophon and titles
+@black:       #000000; // black for current nav item
+@cyan:        #48b7ae; // cyan for control elements
+@cyan-light:  #7eccc6; // lighter shade of cyan
+
+// Text colors
+@white-text:  #ffffff; // plain white
+@black-text:  #000000; // plain black
+
+/* Hiding stuff */
+#portal-footer #portal-siteactions
+{
+	display: none;
+}
+
 /* Customize navbar color */
-@plone-sitenav-bg: pink;
-@plone-sitenav-link-hover-bg: darken(pink, 20%);
+@plone-sitenav-bg: @gray;
+@plone-sitenav-link-hover-bg: black;
 
 /* Customize navbar text color */
 .plone-nav > li > a {
-  color: @plone-text-color;
+  color: @white-text;
 }
 
 /* Customize search button */
@@ -16,4 +33,16 @@
   .button-variant(@plone-text-color, pink, @plone-gray-lighter);
 }
 
-/* Inspect Barceloneta theme (and its less-folder) for more... */
+/* Footer */
+#portal-footer-wrapper {
+	background-color: @gray;
+	padding: 0;
+	text-align: left;
+}
+#footer-background {
+	background-color: @gray-light;
+	color: @black-text;
+}
+#colophon-background {
+	color: @white-text;
+}
