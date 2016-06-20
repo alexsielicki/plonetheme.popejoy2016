@@ -18,6 +18,7 @@
 
 // Border colors
 @gray-border: #b4b4b5; 
+@cyan-border: #52a19b; // cyan
 
 /* Hiding stuff */
 #portal-footer #portal-siteactions,
@@ -73,15 +74,42 @@ body {
 }
 
 /* Search */
-#porta-searchbox {
+#contact-popejoy {
+	float: right;
+	text-transform: uppercase;
+	color: @black-text;
+	font-size: 12px;
+	padding: 17px 8px;
+}
+#portal-searchbox {
 	margin-top: 0;
+	background-color: @cyan;
+	padding: 8px 17px;
+}
+#portal-searchbox label {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: @white-text;
+	margin-right: 10px;
 }
 #searchGadget_form .searchSection {
 	display: none;
 }
-#searchGadget_form .searchButton {
-  /* Re-use mixin from Barceloneta */
-  .button-variant(@plone-text-color, pink, @plone-gray-lighter);
+#searchGadget_form #searchGadget {
+  background-color: @cyan-light;
+  border: 1px solid @cyan-border;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+@media (min-width: @plone-screen-sm-min) {
+	#portal-searchbox {
+		width: 261px;
+	}
+	#portal-searchbox [type="text"] {
+	    float: none;
+	    width: 120px;
+	    display: inline-block;
+	}
 }
 
 /* Footer */
