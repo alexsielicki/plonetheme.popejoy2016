@@ -20,7 +20,8 @@
 @gray-border: #b4b4b5; 
 
 /* Hiding stuff */
-#portal-footer #portal-siteactions
+#portal-footer #portal-siteactions,
+#portal-breadcrumbs
 {
 	display: none;
 }
@@ -30,7 +31,19 @@ body {
 	font-family: 'Ek Mukta', sans-serif;
 }
 
-/* Customize navbar color */
+/* Customize navbar */
+#mainnavigation {
+	text-transform: uppercase;
+}
+@media (min-width: 768px) {
+.plone-navbar-nav {
+    float: right;
+}
+}
+.plone-nav > li > a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 @plone-sitenav-bg: @gray;
 @plone-sitenav-link-hover-bg: black;
 
