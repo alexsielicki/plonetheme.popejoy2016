@@ -31,18 +31,38 @@ body {
 	font-family: 'Ek Mukta', sans-serif;
 }
 
+#portal-header {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#portal-logo img {
+	width: 150px;
+	height: auto;
+}
+@media (min-width: @plone-screen-lg-min)
+{
+	#portal-logo {
+		position: absolute;
+		z-index: 1;
+	}
+	#portal-header {
+		min-height: 119px;
+	}
+}
+
 /* Customize navbar */
 #mainnavigation {
 	text-transform: uppercase;
 }
-@media (min-width: 768px) {
-.plone-navbar-nav {
-    float: right;
-}
+@media (min-width: @plone-screen-lg-min) 
+{
+	.plone-navbar-nav {
+	    float: right;
+	}
 }
 .plone-nav > li > a {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 @plone-sitenav-bg: @gray;
 @plone-sitenav-link-hover-bg: black;
@@ -52,7 +72,13 @@ body {
   color: @white-text;
 }
 
-/* Customize search button */
+/* Search */
+#porta-searchbox {
+	margin-top: 0;
+}
+#searchGadget_form .searchSection {
+	display: none;
+}
 #searchGadget_form .searchButton {
   /* Re-use mixin from Barceloneta */
   .button-variant(@plone-text-color, pink, @plone-gray-lighter);
