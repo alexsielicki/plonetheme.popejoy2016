@@ -13,6 +13,8 @@
 // Text colors
 @white-text:  #ffffff; // plain white
 @black-text:  #000000; // plain black
+@cyan-text:   #48b7ae; // cyan
+@gray-text:   #aeaeb0; // gray text
 
 // Border colors
 @gray-border: #b4b4b5; 
@@ -21,6 +23,11 @@
 #portal-footer #portal-siteactions
 {
 	display: none;
+}
+
+/* Font */
+body {
+	font-family: 'Ek Mukta', sans-serif;
 }
 
 /* Customize navbar color */
@@ -39,6 +46,9 @@
 }
 
 /* Footer */
+#portal-footer {
+	font-size: 12px;
+}
 #portal-footer-wrapper {
 	background-color: @gray;
 	padding: 0;
@@ -60,12 +70,12 @@
 }
 #footer-background .section h3 {
 	border-bottom: 1px solid @gray-border;
-	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding-bottom: 4px;
+	font-size: 12px;
 }
-#footer-background .section p {
+#footer-background p {
 	border-bottom-width: 0;
 	padding-bottom: 0;
 }
@@ -76,6 +86,27 @@
 #footer-background .section a {
 	color: @black-text;
 }
+#footer-background #social-icons {
+	padding-top: 20px;
+}
+#footer-background #newsletter-signup {
+	padding-top: 28px;
+	font-size: 12px;
+}
+#footer-background #newsletter-signup a {
+	text-transform: uppercase;
+	color: @cyan-text;
+}
 #colophon-background {
-	color: @white-text;
+	color: @gray-text;
+}
+#colophon-background .colophonWrapper {
+	padding: 20px 0;
+}
+#colophon-background #copyright {
+	float: left;
+}
+#colophon-background #partners {
+	text-align: right;
+	text-transform: uppercase;
 }

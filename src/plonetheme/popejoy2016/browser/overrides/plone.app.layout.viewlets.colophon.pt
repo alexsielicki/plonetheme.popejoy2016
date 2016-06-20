@@ -1,10 +1,24 @@
 <div id="colophon-background">
 	<div class="container"  id="portal-colophon" i18n:domain="plone">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-sm-9">
 				<div class="colophonWrapper">
-					<div>Copyright</div>
+					<div id="copyright">
+						&copy;
+						Copyright
+						<span
+	               tal:omit-tag=""
+	               tal:define="now modules/DateTime/DateTime"
+	               tal:content="now/year" />
+	          Popejoy Presents. All rights reserved.
+          </div>
+          <div id="partners">
+          	Our Partners
+          </div>
 				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3">
+				Here go the logos.
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 <div id="footer-background">
 	<div class="container" id="footer-wrapper">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-sm-9">
 				<div tal:on-error="nothing" tal:replace="structure view/render_footer_portlets" />
 
 				<div class="section mission">
@@ -125,6 +125,41 @@
 					</ul>
 				</div>
 
+			</div>
+			<div class="col-xs-6 col-sm-3">
+				<div id="social-icons">
+					<a href="http://www.facebook.com/popejoypresents">
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-facebook.png;"
+							src="/images/icons/popejoy-social-facebook.png" alt="Facebook">
+					</a>
+					<a href="http://twitter.com/popejoy">
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-twitter.png;"
+							class="image-inline" src="/images/icons/popejoy-social-twitter.png" alt="Twitter">
+					</a>
+					<a href="http://www.youtube.com/popejoyhall">
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-youtube.png;"
+							class="image-inline" src="/images/icons/popejoy-social-youtube.png" alt="YouTube">
+					</a>
+					<a class="external-link" href="https://instagram.com/popejoypresents/">
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-instagram.png;"
+							class="image-inline" src="/images/icons/popejoy-social-instagram.png" alt="Instagram"></a>
+					<a href="http://www.flickr.com/photos/popejoy">
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-flickr.png;"
+							class="image-inline" src="/images/icons/popejoy-social-flickr.png" alt="Flickr">
+					</a>
+					<a href="http://pinterest.com/popejoy/">
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-pinterest.png;"
+							class="image-inline" src="/images/icons/popejoy-social-pinterest.png" alt="Pinterest">
+					</a>
+				</div>
+				<div id="newsletter-signup">
+					<a href="https://app.e2ma.net/app2/audience/signup/1787913/1752699/?v=a">
+						Sign up for Popejoy updates &raquo;
+					</a>
+					<p>
+						And get last-minute alerts, news, and discounts delivered straight to your email.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
