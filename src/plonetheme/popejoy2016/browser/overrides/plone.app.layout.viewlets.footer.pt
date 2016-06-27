@@ -129,26 +129,26 @@
 			<div class="col-xs-6 col-sm-3">
 				<div id="social-icons">
 					<a href="http://www.facebook.com/popejoypresents">
-						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-facebook.png;"
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/social_facebook.png;"
 							src="/images/icons/popejoy-social-facebook.png" alt="Facebook">
 					</a>
 					<a href="http://twitter.com/popejoy">
-						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-twitter.png;"
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/social_twitter.png;"
 							class="image-inline" src="/images/icons/popejoy-social-twitter.png" alt="Twitter">
 					</a>
 					<a href="http://www.youtube.com/popejoyhall">
-						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-youtube.png;"
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/social_youtube.png;"
 							class="image-inline" src="/images/icons/popejoy-social-youtube.png" alt="YouTube">
 					</a>
 					<a class="external-link" href="https://instagram.com/popejoypresents/">
-						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-instagram.png;"
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/social_instagram.png;"
 							class="image-inline" src="/images/icons/popejoy-social-instagram.png" alt="Instagram"></a>
 					<a href="http://www.flickr.com/photos/popejoy">
-						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-flickr.png;"
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/social_flickr.png;"
 							class="image-inline" src="/images/icons/popejoy-social-flickr.png" alt="Flickr">
 					</a>
 					<a href="http://pinterest.com/popejoy/">
-						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/popejoy-social-pinterest.png;"
+						<img tal:attributes="src string: ${view/navigation_root_url}/images/icons/social_pinterest.png;"
 							class="image-inline" src="/images/icons/popejoy-social-pinterest.png" alt="Pinterest">
 					</a>
 				</div>
