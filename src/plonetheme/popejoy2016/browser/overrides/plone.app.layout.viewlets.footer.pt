@@ -16,32 +16,32 @@
 					<h3>Popejoy Hall</h3>
 					<ul>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/about">
 								About Popejoy Hall
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/about/staff">
 								Staff
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/about/find-us-online">
 								Connect Online
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/popejoy-hall-rental-guidelines">
 								Rent Popejoy
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/popejoy-hall-technical-information">
 								Technical Specifications
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/contact">
 								Contact
 							</a>
 						</li>
@@ -52,32 +52,32 @@
 					<h3>Plan Your Visit</h3>
 					<ul>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/faqs-for-newcomers">
 								Frequently Asked Questions
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/attire">
 								What to Wear?
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/transportation">
 								Parking & Transportation
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/nearby-dining">
 								Nearby Dining & Discounts
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/policies">
 								House Policies
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/kids">
 								Kids
 							</a>
 						</li>
@@ -88,37 +88,37 @@
 					<h3>Tickets</h3>
 					<ul>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href python: context.getCurrentSeason().getURL();">
 								Coming This Season
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/tickets/season-tickets">
 								Season Tickets
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/tickets/how-to-buy-tickets">
 								Where to Buy Tickets
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/groups">
 								Bringing a Group
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/your-visit/seating-guide">
 								Seating Guide
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="#" tal:attributes="href string:${view/navigation_root_url}/tickets/ticket-policies">
 								Ticket Policies
 							</a>
 						</li>
 						<li>
-							<a href="#" tal:attributes="href string:${view/navigation_root_url}/">
+							<a href="https://unmtickets.entaus.com/WEBPAGES/EntaWebExtra/FixedExtra.aspx">
 								Gift Certificates
 							</a>
 						</li>
