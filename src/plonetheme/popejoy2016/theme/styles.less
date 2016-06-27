@@ -6,6 +6,7 @@
 // Background colors
 @gray:        #6d6e71; // standard gray for nav and footer
 @gray-light:  #e2e2e3; // light gray for colophon and titles
+@gray-nav:    #b6b6b8;
 @black:       #000000; // black for current nav item
 @cyan:        #48b7ae; // cyan for control elements
 @cyan-light:  #7eccc6; // lighter shade of cyan
@@ -31,6 +32,15 @@
 {
 	display: none;
 }
+
+/* Sizing page */
+@media (min-width: 1260px)
+{
+	.plone-toolbar-left-default .container {
+		width: 970px;
+	}
+}
+
 
 /* Font */
 body {
@@ -68,6 +78,9 @@ p {
 }
 ul p {
 	margin: 0;
+}
+ul {
+	list-style-type: square;
 }
 #content li {
 	margin-bottom: 5px;
@@ -194,6 +207,8 @@ main h1.documentFirstHeading {
 	color: @black-text;
 	background-color: transparent;
 }
+
+/* Calendar */
 .portlet.portletCalendar .portletHeader {
 	padding-bottom: 0;
 	padding-left: 0;
@@ -243,6 +258,33 @@ main h1.documentFirstHeading {
 }
 .portlet.portletCalendar table tbody tr:first-child td > * {
 	margin-top: 0;
+}
+
+/* Navigation Portlet */
+.portletNavigationTree .portletContent .navTreeTopNode {
+	display: none;
+}
+.portletNavigationTree nav.portletContent > ul > li a {
+	border-top-width: 10px;
+	border-top-color: white;
+}
+.portletNavigationTree .portletContent > ul > li > a {
+	background-color: @gray-nav;
+	color: @white-text;
+	text-transform: uppercase;
+}
+.portletNavigationTree .portletContent .navTreeCurrentNode > a {
+	color: @white-text;
+	background-color: @black;
+}
+.portletNavigationTree .portletContent .navTreeCurrentNode > a:after,
+.portletNavigationTree .portletContent > ul > li > a:hover:after 
+{
+	content: none;
+}
+.portletNavigationTree .portletContent > ul > li > a:hover {
+	background-color: @black;
+	text-decoration: none;
 }
 
 /* Footer */
