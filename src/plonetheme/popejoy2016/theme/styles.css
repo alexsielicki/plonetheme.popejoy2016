@@ -5753,7 +5753,7 @@ body.template-logged_out #content-core .portletFooter {
   display: none;
 }
 /* Sizing page */
-@media (min-width: 1260px) {
+@media (min-width: 970px) {
   /* line 40, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-left-default .container {
     width: 970px;
