@@ -363,6 +363,51 @@ main h1.documentFirstHeading {
 	font-weight: 600;
 }
 
+/* Season */
+.template-season_view .tileItem {
+	float: left;
+	width: 193px;
+	margin-right: 20px;
+	height: 500px;
+	overflow: hidden;
+}
+.template-season_view .tileItem h2 {
+	text-transform: none;
+	border-bottom-width: 0;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+.template-season_view .tileItem h2 a {
+	color: @black-text;
+}
+.template-season_view .tileItem h2 a:focus,
+.template-season_view .tileItem h2 a:hover
+{
+	border-bottom-width: 0;
+}
+.template-season_view .tileItem p {
+	margin-bottom: 10px;
+}
+.template-season_view #past-shows {
+	clear: left;
+}
+.template-season_view #past-shows h1 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	border-top: 1px solid @gray-light-border;
+	padding-top: 10px;
+}
+.template-season_view .tileFooter a {
+	text-transform: uppercase;
+	color: @white-text;
+	background-color: @cyan;
+	padding: 0px 10px;
+	font-weight: 500;
+}
+
+
+
 /* Shows */
 .template-performance_view .eventDetails {
 	display: none;
@@ -393,6 +438,10 @@ main h1.documentFirstHeading {
 .leftClear {
 	display: block;
 	clear: left;
+}
+.visualClear {
+	display: block;
+	clear: both;
 }
 .performanceStart.soldOutDate {
 	text-decoration: line-through;
