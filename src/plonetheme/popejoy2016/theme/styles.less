@@ -363,6 +363,42 @@ main h1.documentFirstHeading {
 	font-weight: 600;
 }
 
+/* Homepage */
+.template-homepage_view .performance h3 {
+	text-transform: none;
+	border-bottom-width: 0;
+	margin-bottom: 0;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.template-homepage_view .performance h3 a {
+	color: @black-text;
+}
+.template-homepage_view .performance h3 a:focus,
+.template-homepage_view .performance h3 a:hover
+{
+	border-bottom-width: 0;
+}
+.template-homepage_view .performance .tileFooter a {
+	text-transform: uppercase;
+	color: @white-text;
+	background-color: @cyan;
+	padding: 0px 10px;
+	font-weight: 500;
+}
+.template-homepage_view .performance {
+	float: left;
+	width: 193px;
+	margin-right: 20px;
+	height: 500px;
+	overflow: hidden;
+}
+.template-homepage_view .performance:last-child {
+	margin-right: 0;
+}
+
+
 /* Season */
 .template-season_view .currentSeasonTitle {
 	clear: left;
@@ -373,6 +409,9 @@ main h1.documentFirstHeading {
 	margin-right: 20px;
 	height: 500px;
 	overflow: hidden;
+}
+.template-season_view .tileItem:nth-child(4n+1) {
+	margin-right: 0;
 }
 .template-season_view .tileItem h2 {
 	text-transform: none;
