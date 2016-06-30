@@ -30,7 +30,8 @@
 
 /* Hiding stuff */
 #portal-footer #portal-siteactions,
-#portal-breadcrumbs
+#portal-breadcrumbs,
+.documentActions #document-action-sendto
 {
 	display: none;
 }
@@ -111,7 +112,7 @@ a:focus
 {
 	#portal-logo {
 		position: absolute;
-		z-index: 1;
+		z-index: 6;
 	}
 	#portal-header {
 		min-height: 119px;
@@ -364,6 +365,20 @@ main h1.documentFirstHeading {
 }
 
 /* Homepage */
+.template-homepage_view #title-popejoy {
+	display: none;
+}
+#homepage-slideshow {
+	width: 621px;
+	height: 350px;
+	background-color: black;
+	overflow: hidden;
+}
+#myGallery {
+	width: 621px;
+	height: 350px;
+	overflow: hidden;
+}
 .template-homepage_view .performance h3 {
 	text-transform: none;
 	border-bottom-width: 0;
