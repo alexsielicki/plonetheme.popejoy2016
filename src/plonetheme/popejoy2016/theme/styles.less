@@ -253,7 +253,7 @@ main h1.documentFirstHeading {
 @cal-cell-size: 27px;
 .portlet.portletCalendar table td > * {
 	border-radius: 0;
-	width: @cal-cell-size;
+	/*width: @cal-cell-size;*/
 	height: @cal-cell-size;
 	line-height: @cal-cell-size;
 }
@@ -368,16 +368,112 @@ main h1.documentFirstHeading {
 .template-homepage_view #title-popejoy {
 	display: none;
 }
-#homepage-slideshow {
-	width: 621px;
-	height: 350px;
+#homepage-slideshow-js-component,
+#myGallery
+{
+	width: 100%;
+	height: 343px;
 	background-color: black;
 	overflow: hidden;
 }
-#myGallery {
-	width: 621px;
-	height: 350px;
-	overflow: hidden;
+
+
+/* No Toolbar Breakpoints */
+@media (min-width: @plone-screen-sm-min) {
+	#homepage-slideshow-js-component,
+	#myGallery
+	{
+		height: 217px;
+	}
+}
+@media (min-width: @plone-screen-md-min) {
+	#homepage-slideshow-js-component,
+	#myGallery
+	{
+		height: 283px;
+	}
+}
+@media (min-width: @plone-screen-lg-min) {
+	#homepage-slideshow-js-component,
+	#myGallery
+	{
+		height: 343px;
+	}
+}
+
+/* Small with Toolbar Breakpoints */
+@media (min-width: @plone-screen-sm-min) {
+	.plone-toolbar-top-default #homepage-slideshow-js-component,
+	.plone-toolbar-top-default #myGallery
+	{
+		height: 217px;
+	}
+}
+@media (min-width: (@plone-screen-sm-min + @plone-left-toolbar)) {
+	.plone-toolbar-left-default #homepage-slideshow-js-component,
+	.plone-toolbar-left-default #myGallery
+	{
+		height: 217px;
+	}
+}
+@media (min-width: (@plone-screen-sm-min + @plone-left-toolbar-expanded)) {
+	.plone-toolbar-left-expanded #homepage-slideshow-js-component,
+	.plone-toolbar-left-expanded #myGallery
+	{
+		height: 217px;
+	}
+}
+
+/* Medium with Toolbar Breakpoints */
+@media (min-width: @plone-screen-md-min) {
+	.plone-toolbar-top-default #homepage-slideshow-js-component,
+	.plone-toolbar-top-default #myGallery
+	{
+		height: 283px;
+	}
+}
+@media (min-width: (@plone-screen-md-min + @plone-left-toolbar)) {
+	.plone-toolbar-left-default #homepage-slideshow-js-component,
+	.plone-toolbar-left-default #myGallery
+	{
+		height: 283px;
+	}
+}
+@media (min-width: (@plone-screen-md-min + @plone-left-toolbar-expanded)) {
+	.plone-toolbar-left-expanded #homepage-slideshow-js-component,
+	.plone-toolbar-left-expanded #myGallery
+	{
+		height: 283px;
+	}
+}
+
+/* Large with Toolbar Breakpoints */
+@media (min-width: @plone-screen-lg-min) {
+	.plone-toolbar-top-default #homepage-slideshow-js-component,
+	.plone-toolbar-top-default #myGallery
+	{
+		height: 343px;
+	}
+}
+@media (min-width: (@plone-screen-lg-min + @plone-left-toolbar)) {
+	.plone-toolbar-left-default #homepage-slideshow-js-component,
+	.plone-toolbar-left-default #myGallery
+	{
+		height: 343px;
+	}
+}
+@media (min-width: (@plone-screen-lg-min + @plone-left-toolbar-expanded)) {
+	.plone-toolbar-left-expanded #homepage-slideshow-js-component,
+	.plone-toolbar-left-expanded #myGallery
+	{
+		height: 343px;
+	}
+}
+
+
+
+.jdGallery .slideElement {
+	background-size: contain;
 }
 .template-homepage_view .performance h3 {
 	text-transform: none;

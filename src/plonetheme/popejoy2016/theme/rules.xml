@@ -13,7 +13,6 @@
     <!-- <replace css:theme-children="#colophon-wrapper-wrapper" css:content-children="#portal-colophon" /> -->
     <replace css:theme-children="#title-popejoy-target" css:content="h1.documentFirstHeading" />
     <!-- <drop css:theme="header h1.documentFirstHeading" /> -->
-
     <!-- <replace css:theme-children="#slideshow-popejoy-target" css:content="#homepage-slideshow" /> -->
     <!-- <before css:theme="#slideshow-popejoy-before-target" css:content="#homepage-slideshow" /> -->
     <!-- <drop css:content="#homepage-slideshow" /> -->
