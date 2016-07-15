@@ -36,16 +36,6 @@
 	display: none;
 }
 
-/* Sizing page */
-/*@media (min-width: 970px)
-{
-	.plone-toolbar-left-default .container,
-	.container
-	{
-		width: 970px;
-	}
-}*/
-
 
 /* Font */
 body {
@@ -107,17 +97,15 @@ a:focus
 #portal-logo img {
 	width: 150px;
 	height: auto;
+	z-index: 15;
+	position: absolute;
 }
-@media (min-width: @plone-screen-lg-min)
+/*@media (min-width: @plone-screen-lg-min)
 {
-	#portal-logo {
-		position: absolute;
-		z-index: 6;
-	}
 	#portal-header {
 		min-height: 119px;
 	}
-}
+}*/
 
 /* Customize navbar */
 #mainnavigation {
