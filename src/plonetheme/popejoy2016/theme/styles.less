@@ -109,7 +109,7 @@ a:focus
 #portal-logo img {
 	width: 150px;
 	height: auto;
-	z-index: 15;
+	z-index: 2;
 	position: absolute;
 }
 
@@ -392,6 +392,187 @@ main h1.documentFirstHeading {
 	background-color: black;
 	overflow: hidden;
 }
+.jdGallery .slideElement {
+	background-size: contain;
+}
+.template-homepage_view .performance h3 {
+	text-transform: none;
+	border-bottom-width: 0;
+	margin-bottom: 0;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.template-homepage_view .performance h3 a {
+	color: @black-text;
+}
+.template-homepage_view .performance h3 a:focus,
+.template-homepage_view .performance h3 a:hover
+{
+	border-bottom-width: 0;
+}
+.template-homepage_view .performance .tileFooter a {
+	text-transform: uppercase;
+	color: @white-text;
+	background-color: @cyan;
+	padding: 0px 10px;
+	font-weight: 500;
+}
+.template-homepage_view .performance {
+	float: left;
+	overflow: hidden;
+}
+.template-homepage_view .performance img {
+	width: 100%;
+	height: auto;
+}
+.template-homepage_view .performance:last-child {
+	margin-right: 0;
+}
+.template-homepage_view #homepage-this-season {
+	border-top: 1px solid @gray-light-border;
+}
+.template-homepage_view #view-full-season {
+	float: right;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.template-homepage_view #upcoming-shows-header {
+	border-bottom-width: 0;
+	margin-top: 5px;
+}
+
+/* Season */
+.template-season_view .currentSeasonTitle {
+	clear: left;
+}
+.template-season_view .tileItem {
+	float: left;
+	overflow: hidden;
+}
+.template-season_view .tileItem:nth-child(4n+1) {
+	margin-right: 0;
+}
+.template-season_view .tileItem:nth-child(4n+2) {
+	clear: left;
+}
+.template-season_view .tileItem h2 {
+	text-transform: none;
+	border-bottom-width: 0;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+.template-season_view .tileItem h2 a {
+	color: @black-text;
+}
+.template-season_view .tileItem h2 a:focus,
+.template-season_view .tileItem h2 a:hover
+{
+	border-bottom-width: 0;
+}
+.template-season_view .tileItem p {
+	margin-bottom: 10px;
+}
+.template-season_view .tileItem img {
+	width: 100%;
+	height: auto;
+}
+.template-season_view #past-shows {
+	clear: left;
+}
+.template-season_view h1.currentSeasonTitle,
+.template-season_view #past-season h1,
+.template-season_view #past-shows h1
+{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 10px;
+	border-top: 1px solid @gray-light-border;
+}
+.template-season_view .tileFooter a {
+	text-transform: uppercase;
+	color: @white-text;
+	background-color: @cyan;
+	padding: 0px 10px;
+	font-weight: 500;
+}
+
+/* Shows */
+.template-performance_view .eventDetails {
+	display: none;
+}
+.template-performance_view .documentDescription,
+.template-show_view .documentDescription
+{
+	display: none;
+}
+.headerWideImage {
+	padding-bottom: 20px;
+	width: 100%;
+	height: auto;
+}
+.starburstWrapper {
+	float: right;
+	padding-left: 20px;
+	background-color: white;
+}
+.performance-dates-wrapper {
+	float: left;
+	margin-right: 40px;
+	min-width: 210px;
+}
+.performance-dates-wrapper ul {
+	padding-left: 20px;
+}
+.leftClear {
+	display: block;
+	clear: left;
+}
+.visualClear {
+	display: block;
+	clear: both;
+}
+.performanceStart.soldOutDate {
+	text-decoration: line-through;
+	color: @gray-disabled-text;
+}
+.performance-dates-wrapper .soldOut,
+.vevent .soldOutPerformance
+{
+	color: @red-text;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+}
+.vevent .soldOutPerformance {
+	font-size: 20px;
+}
+
+/* Events */
+.template-event_view .eventDetails {
+	float: right;
+	max-width: 300px;
+}
+.template-event_view .eventDetails table {
+	border-width: 0;
+}
+.template-event_view .eventDetails th {
+	color: @gray-darker-text;
+	background-color: white !important;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.template-event_view .eventDetails td {
+	color: @black-text;
+	background-color: white !important;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.template-event_view .eventDetails abbr {
+	cursor: pointer;
+	border-bottom-width: 0;
+}
 
 
 /* No Toolbar Breakpoints */
@@ -527,6 +708,21 @@ main h1.documentFirstHeading {
 	{
 		height: 217px;
 	}
+	.template-homepage_view .performance {
+		margin-right: 16px;
+		width: 121px;
+	}
+	.template-homepage_view .performance .tileFooter a {
+		font-size: 11px;
+	}
+	/* Season */
+	.template-season_view .tileItem {
+		width: 121px;
+		margin-right: 16px;
+	}
+	.template-season_view .tileItem .tileFooter a {
+		font-size: 11px;
+	}
 }
 @media (min-width: @plone-screen-md-min) {
 	#portal-logo img {
@@ -549,6 +745,7 @@ main h1.documentFirstHeading {
 	#searchGadget_form #searchGadget {	
 		width: 100px;
 		height: 25px;
+		margin-left: 0;
 	}
 	#contact-popejoy {
 		font-size: 14px;
@@ -657,6 +854,21 @@ main h1.documentFirstHeading {
 	{
 		height: 283px;
 	}
+	.template-homepage_view .performance {
+		margin-right: 20px;
+		width: 159px;
+	}
+	.template-homepage_view .performance .tileFooter a {
+		font-size: 14px;
+	}
+	/* Season */
+	.template-season_view .tileItem {
+		width: 159px;
+		margin-right: 20px;
+	}
+	.template-season_view .tileItem .tileFooter a {
+		font-size: 14px;
+	}
 }
 @media (min-width: @plone-screen-lg-min) {
 	#portal-logo img {
@@ -679,6 +891,7 @@ main h1.documentFirstHeading {
 	#searchGadget_form #searchGadget {	
 		width: 120px;
 		height: 25px;
+		margin-left: 0;
 	}
 	#contact-popejoy {
 		font-size: 14px;
@@ -787,6 +1000,21 @@ main h1.documentFirstHeading {
 	{
 		height: 343px;
 	}
+	.template-homepage_view .performance {
+		margin-right: 25px;
+		width: 193px;
+	}
+	.template-homepage_view .performance .tileFooter a {
+		font-size: 16px;
+	}
+	/* Season */
+	.template-season_view .tileItem {
+		width: 193px;
+		margin-right: 25px;
+	}
+	.template-season_view .tileItem .tileFooter a {
+		font-size: 16px;
+	}
 }
 
 /* Small with Toolbar Breakpoints */
@@ -859,171 +1087,3 @@ main h1.documentFirstHeading {
 }
 
 
-
-.jdGallery .slideElement {
-	background-size: contain;
-}
-.template-homepage_view .performance h3 {
-	text-transform: none;
-	border-bottom-width: 0;
-	margin-bottom: 0;
-	margin-top: 15px;
-	font-size: 20px;
-	font-weight: 600;
-}
-.template-homepage_view .performance h3 a {
-	color: @black-text;
-}
-.template-homepage_view .performance h3 a:focus,
-.template-homepage_view .performance h3 a:hover
-{
-	border-bottom-width: 0;
-}
-.template-homepage_view .performance .tileFooter a {
-	text-transform: uppercase;
-	color: @white-text;
-	background-color: @cyan;
-	padding: 0px 10px;
-	font-weight: 500;
-}
-.template-homepage_view .performance {
-	float: left;
-	width: 193px;
-	margin-right: 20px;
-	height: 500px;
-	overflow: hidden;
-}
-.template-homepage_view .performance:last-child {
-	margin-right: 0;
-}
-
-
-/* Season */
-.template-season_view .currentSeasonTitle {
-	clear: left;
-}
-.template-season_view .tileItem {
-	float: left;
-	width: 193px;
-	margin-right: 20px;
-	height: 500px;
-	overflow: hidden;
-}
-.template-season_view .tileItem:nth-child(4n+1) {
-	margin-right: 0;
-}
-.template-season_view .tileItem h2 {
-	text-transform: none;
-	border-bottom-width: 0;
-	margin-bottom: 0;
-	margin-top: 15px;
-}
-.template-season_view .tileItem h2 a {
-	color: @black-text;
-}
-.template-season_view .tileItem h2 a:focus,
-.template-season_view .tileItem h2 a:hover
-{
-	border-bottom-width: 0;
-}
-.template-season_view .tileItem p {
-	margin-bottom: 10px;
-}
-.template-season_view #past-shows {
-	clear: left;
-}
-.template-season_view h1.currentSeasonTitle,
-.template-season_view #past-season h1,
-.template-season_view #past-shows h1
-{
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 600;
-	padding-top: 10px;
-	border-top: 1px solid @gray-light-border;
-}
-.template-season_view .tileFooter a {
-	text-transform: uppercase;
-	color: @white-text;
-	background-color: @cyan;
-	padding: 0px 10px;
-	font-weight: 500;
-}
-
-
-
-/* Shows */
-.template-performance_view .eventDetails {
-	display: none;
-}
-.template-performance_view .documentDescription,
-.template-show_view .documentDescription
-{
-	display: none;
-}
-.headerWideImage {
-	padding-bottom: 20px;
-	width: 100%;
-	height: auto;
-}
-.starburstWrapper {
-	float: right;
-	padding-left: 20px;
-	background-color: white;
-}
-.performance-dates-wrapper {
-	float: left;
-	margin-right: 40px;
-	min-width: 210px;
-}
-.performance-dates-wrapper ul {
-	padding-left: 20px;
-}
-.leftClear {
-	display: block;
-	clear: left;
-}
-.visualClear {
-	display: block;
-	clear: both;
-}
-.performanceStart.soldOutDate {
-	text-decoration: line-through;
-	color: @gray-disabled-text;
-}
-.performance-dates-wrapper .soldOut,
-.vevent .soldOutPerformance
-{
-	color: @red-text;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: 500;
-}
-.vevent .soldOutPerformance {
-	font-size: 20px;
-}
-
-/* Events */
-.template-event_view .eventDetails {
-	float: right;
-	max-width: 300px;
-}
-.template-event_view .eventDetails table {
-	border-width: 0;
-}
-.template-event_view .eventDetails th {
-	color: @gray-darker-text;
-	background-color: white !important;
-	border-left-width: 0;
-	border-right-width: 0;
-}
-.template-event_view .eventDetails td {
-	color: @black-text;
-	background-color: white !important;
-	border-left-width: 0;
-	border-right-width: 0;
-}
-.template-event_view .eventDetails abbr {
-	cursor: pointer;
-	border-bottom-width: 0;
-}
