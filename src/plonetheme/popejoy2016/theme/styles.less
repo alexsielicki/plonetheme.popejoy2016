@@ -424,6 +424,8 @@ main h1.documentFirstHeading {
 	background-color: @cyan;
 	padding: 0px 10px;
 	font-weight: 500;
+	display: inline-block;
+	line-height: 25px;
 }
 .template-homepage_view .performance {
 	float: left;
@@ -447,6 +449,15 @@ main h1.documentFirstHeading {
 .template-homepage_view #upcoming-shows-header {
 	border-bottom-width: 0;
 	margin-top: 5px;
+}
+.template-homepage_view .portletStaticText a {
+	display: block;
+	background-color: @cyan;
+	color: @white-text;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 0 10px;
+	line-height: 25px;
 }
 
 /* Season */
@@ -724,8 +735,10 @@ main h1.documentFirstHeading {
 		margin-right: 16px;
 		width: 121px;
 	}
-	.template-homepage_view .performance .tileFooter a {
-		font-size: 11px;
+	.template-homepage_view .performance .tileFooter a,
+	.template-homepage_view .portletStaticText a
+	{
+		font-size: 10px;
 	}
 	/* Season */
 	.template-season_view .tileItem {
@@ -870,7 +883,9 @@ main h1.documentFirstHeading {
 		margin-right: 20px;
 		width: 159px;
 	}
-	.template-homepage_view .performance .tileFooter a {
+	.template-homepage_view .performance .tileFooter a,
+	.template-homepage_view .portletStaticText a
+	{
 		font-size: 14px;
 	}
 	/* Season */
@@ -1016,7 +1031,9 @@ main h1.documentFirstHeading {
 		margin-right: 25px;
 		width: 193px;
 	}
-	.template-homepage_view .performance .tileFooter a {
+	.template-homepage_view .performance .tileFooter a,
+	.template-homepage_view .portletStaticText a
+	{
 		font-size: 16px;
 	}
 	/* Season */
