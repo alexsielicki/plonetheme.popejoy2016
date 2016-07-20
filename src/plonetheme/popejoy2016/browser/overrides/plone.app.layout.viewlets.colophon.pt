@@ -18,7 +18,8 @@
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-3">
-				Here go the logos.
+				<span id="broadway-logo-colophon"></span>
+				<a id="unm-logo-colophon" href="http://www.unm.edu/"></a>
 			</div>
 		</div>
 	</div>
