@@ -7038,3 +7038,272 @@ main h1.documentFirstHeading {
     height: 343px;
   }
 }
+/* Mobile */
+@media (max-width: 767px) {
+  /* line 1155, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #portal-logo img,
+  #portal-searchbox,
+  #contact-popejoy,
+  #slideshow-popejoy,
+  #homepage-body-text {
+    display: none;
+  }
+  /* line 1163, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #portal-logo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 76px;
+    float: none;
+    z-index: 1;
+  }
+  /* primary nav */
+  /* line 1174, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #mainnavigation-wrapper {
+    margin-top: -54px;
+    margin-bottom: 11px;
+  }
+  /* line 1178, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .plone-navbar {
+    max-height: none;
+    min-height: initial;
+    background-color: transparent;
+  }
+  /* line 1183, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .plone-navbar-header {
+    padding: 0 15px 0 15px;
+  }
+  /* line 1186, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .plone-navbar .container {
+    padding: 0;
+  }
+  /* line 1189, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .plone-navbar-nav {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+  /* line 1194, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .plone-nav > li > a {
+    padding: 13px 10px 0 10px;
+    font-size: 18px;
+    height: 50px;
+    background-color: #6d6e71;
+    border-bottom: 3px solid #fff;
+  }
+  /* line 1201, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .plone-navbar-toggle {
+    font-size: 18px;
+    text-shadow: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    padding-right: 50px;
+  }
+  /* structural */
+  /* line 1212, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .container,
+  #edit-zone.plone-toolbar-top .plone-toolbar-container,
+  .plone-modal .plone-modal-content,
+  .plone-toolbar-top-default .container,
+  .plone-toolbar-left-default .container {
+    width: auto;
+  }
+  /* line 1217, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .col-xs-6 {
+    width: 100%;
+  }
+  /* line 1220, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  iframe {
+    width: 100%;
+  }
+  /* line 1223, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .row {
+    margin: 0;
+  }
+  /* page content */
+  /* line 1228, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #title-popejoy {
+    height: auto;
+  }
+  /* line 1231, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #title-popejoy .documentFirstHeading {
+    margin-top: 34px;
+    margin-left: 15px;
+    text-align: center;
+  }
+  /* line 1236, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .documentDescription {
+    padding-top: 12px;
+    padding-bottom: 14px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* line 1242, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #content li {
+    padding-left: 16px;
+    background-image: url(bullet.gif);
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+  }
+  /* line 1248, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #content-core p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  /* line 1252, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #content-header .container {
+    padding: 0;
+    background-color: #48b8af;
+    background-image: url(popejoy_mobile_logo.png);
+    background-repeat: no-repeat;
+    height: 79px;
+    border-bottom: 3px solid #fff;
+  }
+  /* line 1260, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  button {
+    background-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+  }
+  /* inline image and caption */
+  /* line 1268, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .pullquote {
+    float: none;
+    margin: 0 0 20px 0;
+    padding: 0 10px 12px 15px;
+    width: 100%;
+    max-width: 325px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  /* line 1277, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .pullquote p {
+    margin: 0 -10px 10px -15px;
+  }
+  /* line 1280, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .pullquote p img.image-inline {
+    float: none;
+    margin: 0;
+    width: 100%;
+    max-width: 350px;
+  }
+  /* sidebar portlets */
+  /* line 1288, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .portletNavigationTree,
+  .portletCalendar {
+    width: 100%;
+    max-width: 450px;
+    padding-left: 15px;
+  }
+  /* footer content */
+  /* line 1295, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #footer-background .section {
+    display: none;
+  }
+  /* line 1298, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #footer-background .section.mission {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px 0 15px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 1306, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #footer-background .section h3 {
+    font-size: 16px;
+  }
+  /* line 1309, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #footer-background #social-icons {
+    padding: 0 20px 0 13px;
+    text-align: center;
+  }
+  /* line 1313, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #footer-background #social-icons img {
+    width: 32px;
+  }
+  /* line 1316, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #footer-background #newsletter-signup {
+    padding: 20px 20px 20px 15px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  /* line 1322, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #colophon-background #copyright {
+    padding-left: 15px;
+    display: none;
+  }
+  /* line 1326, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #colophon-background #partners {
+    text-align: center;
+  }
+  /* line 1329, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  #colophon-background #unm-logo-colophon,
+  #colophon-background #broadway-logo-colophon {
+    width: 50%;
+    background-size: contain !important;
+    background-position: center;
+  }
+  /* Homepage */
+  /* line 1337, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-homepage_view .performance {
+    float: none;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  /* line 1342, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-homepage_view #view-full-season {
+    display: none;
+  }
+  /* line 1345, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-homepage_view #upcoming-shows-header {
+    background-color: #929295;
+    color: #ffffff;
+    border-width: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 10px -45px 25px -45px;
+  }
+  /* Season */
+  /* line 1354, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-season_view .showListing .tileItem {
+    float: none;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: white;
+  }
+  /* line 1360, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-season_view h1.currentSeasonTitle,
+  .template-season_view #past-season h1,
+  .template-season_view #past-shows h1 {
+    background-color: #929295;
+    color: #ffffff;
+    border-width: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 3px -45px 25px -45px;
+  }
+  /* line 1371, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-season_view #title-popejoy {
+    margin-bottom: 0;
+  }
+  /* line 1374, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-season_view #main-container {
+    background-color: #e2e2e3;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  /* line 1379, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  .template-season_view .tileItem h2,
+  .template-season_view .tileItem p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
