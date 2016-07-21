@@ -1159,6 +1159,16 @@ main h1.documentFirstHeading {
 	{
 		display: none;
 	}
+	#portal-logo {
+		display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 76px;
+    float: none;
+    z-index: 1;
+	}
 	/* primary nav */
 	#mainnavigation-wrapper {
 		margin-top: -54px;
@@ -1220,6 +1230,7 @@ main h1.documentFirstHeading {
 	#title-popejoy .documentFirstHeading {
 		margin-top: 34px;
 		margin-left: 15px;
+		text-align: center;
 	}
 	.documentDescription {
 		padding-top: 12px;
@@ -1320,5 +1331,54 @@ main h1.documentFirstHeading {
 		width: 50%;
 		background-size: contain !important;
 		background-position: center;
+	}
+	/* Homepage */
+	.template-homepage_view .performance {
+		float: none;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.template-homepage_view #view-full-season {
+		display: none;
+	}
+	.template-homepage_view #upcoming-shows-header {
+		background-color: #929295;
+		color: @white-text;
+		border-width: 0;
+		text-align: center;
+		padding: 10px;
+		margin: 10px -45px 25px -45px;
+	}
+	/* Season */
+	.template-season_view .showListing .tileItem {
+		float: none;
+		text-align: center;
+		margin-bottom: 50px;
+		background-color: white;
+	}
+	.template-season_view h1.currentSeasonTitle, 
+	.template-season_view #past-season h1, 
+	.template-season_view #past-shows h1
+	{
+		background-color: #929295;
+		color: @white-text;
+		border-width: 0;
+		text-align: center;
+		padding: 10px;
+		margin: 3px -45px 25px -45px;
+	}
+	.template-season_view #title-popejoy {
+		margin-bottom: 0;
+	}
+	.template-season_view #main-container {
+		background-color: @gray-light;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.template-season_view .tileItem h2,
+	.template-season_view .tileItem p
+	{
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
