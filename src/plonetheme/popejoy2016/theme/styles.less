@@ -1149,4 +1149,176 @@ main h1.documentFirstHeading {
 	}
 }
 
-
+/* Mobile */
+@media (max-width: 767px) {
+	#portal-logo img, 
+	#portal-searchbox, 
+	#contact-popejoy,
+	#slideshow-popejoy,
+	#homepage-body-text
+	{
+		display: none;
+	}
+	/* primary nav */
+	#mainnavigation-wrapper {
+		margin-top: -54px;
+		margin-bottom: 11px;
+	}
+	.plone-navbar {
+		max-height: none;
+		min-height: initial;
+		background-color: transparent;
+	}
+	.plone-navbar-header {
+		padding: 0 15px 0 15px;
+	}
+	.plone-navbar .container {
+		padding: 0;
+	}
+	.plone-navbar-nav {
+		float: none;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.plone-nav > li > a {
+		padding: 13px 10px 0 10px;
+		font-size: 18px;
+		height: 50px;
+		background-color: #6d6e71;
+		border-bottom: 3px solid #fff;
+	}
+	.plone-navbar-toggle {
+		font-size: 18px;
+		text-shadow: none;
+		background-color: transparent;
+		border: none;
+		border-radius: 0;
+		margin-bottom: 0;
+		margin-right: 20px;
+		padding-right: 50px;
+	}
+	/* structural */
+	.container, #edit-zone.plone-toolbar-top .plone-toolbar-container,
+	.plone-modal .plone-modal-content, .plone-toolbar-top-default .container,
+	.plone-toolbar-left-default .container {
+		width: auto;
+	}
+	.col-xs-6 {
+		width: 100%;
+	}
+	iframe {
+		width: 100%;
+	}
+	.row {
+		margin: 0;
+	}
+	
+	/* page content */
+	#title-popejoy {
+		height: auto;
+	}
+	#title-popejoy .documentFirstHeading {
+		margin-top: 34px;
+		margin-left: 15px;
+	}
+	.documentDescription {
+		padding-top: 12px;
+		padding-bottom: 14px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	#content li {
+		padding-left: 16px;
+		background-image: url(bullet.gif);
+		background-repeat: no-repeat;
+		background-position: 0 7px;
+	}
+	#content-core p {
+		font-size: 17px;
+		line-height: 23px;
+	}
+	#content-header .container {
+		padding: 0;
+		background-color: #48b8af;
+		background-image: url(popejoy_mobile_logo.png);
+		background-repeat: no-repeat;
+		height: 79px;
+		border-bottom: 3px solid #fff;
+	}
+	button {
+		background-color: transparent;
+		box-shadow: none;
+		text-shadow: none;
+		border: none;
+		}
+	
+	/* inline image and caption */
+	.pullquote {
+		float: none;
+		margin: 0 0 20px 0;
+		padding: 0 10px 12px 15px;
+		width: 100%;
+		max-width: 325px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.pullquote p {
+		margin: 0 -10px 10px -15px;
+	}
+	.pullquote p img.image-inline {
+		float: none;
+		margin: 0;
+		width: 100%;
+		max-width: 350px;
+	}
+	
+	/* sidebar portlets */
+	.portletNavigationTree, .portletCalendar {
+		width: 100%;
+		max-width: 450px;
+		padding-left: 15px;
+	}
+	
+	/* footer content */
+	#footer-background .section {
+		display: none;
+	}
+	#footer-background .section.mission {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0 20px 0 15px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	#footer-background .section h3 {
+		font-size: 16px;
+		}
+	#footer-background #social-icons {
+		padding: 0 20px 0 13px;
+		text-align: center;
+	}
+	#footer-background #social-icons img {
+		width: 32px;
+	}
+	#footer-background #newsletter-signup {
+		padding: 20px 20px 20px 15px;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+	}
+	#colophon-background #copyright {
+		padding-left: 15px;
+		display: none;
+	}
+	#colophon-background #partners {
+		text-align: center;
+	}
+	#colophon-background #unm-logo-colophon, 
+	#colophon-background #broadway-logo-colophon
+	{
+		width: 50%;
+		background-size: contain !important;
+		background-position: center;
+	}
+}
