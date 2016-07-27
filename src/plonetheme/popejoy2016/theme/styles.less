@@ -246,6 +246,7 @@ main h1.documentFirstHeading {
 .portlet.portletCalendar table tbody td
 {
 	border-width: 0;
+	background-color: transparent;
 }
 .portlet.portletCalendar table tr {
 	line-height: 25px;
@@ -480,6 +481,12 @@ main h1.documentFirstHeading {
 .template-homepage_view #upcoming-shows-header {
 	border-bottom-width: 0;
 	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.template-homepage_view .portletStaticText h1,
+.template-homepage_view .portletStaticText ul
+{
+	display: none;
 }
 .template-homepage_view .portletStaticText p {
 	margin-bottom: 10px;
@@ -1346,19 +1353,42 @@ main h1.documentFirstHeading {
 	.template-homepage_view #view-full-season {
 		display: none;
 	}
-	.template-homepage_view #upcoming-shows-header {
+	.template-homepage_view #upcoming-shows-header,
+	.template-homepage_view .portletStaticText h1
+	{
 		background-color: #929295;
 		color: @white-text;
 		border-width: 0;
 		text-align: center;
 		padding: 10px;
 		margin: 0px -45px 25px -45px;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: 600;
 	}
 	.template-homepage_view #homepage-this-season {
 		border-width: 0;
 	}
 	.template-homepage_view #content {
 		margin-top: 0;
+	}
+	.template-homepage_view .portletStaticText h1,
+	.template-homepage_view .portletStaticText ul
+	{
+		display: block;
+	}
+	.template-homepage_view .portletStaticText ul {
+		margin-bottom: 20px;
+	}
+	.template-homepage_view .portletStaticText li {
+		padding-left: 8px;
+		background-image: url(bullet.gif);
+		background-repeat: no-repeat;
+		background-position: 0 14px;
+	}
+	.template-homepage_view .portletStaticText ul a {
+		background-color: transparent;
+		color: black;
 	}
 	/* Season */
 	.template-season_view .showListing .tileItem {
