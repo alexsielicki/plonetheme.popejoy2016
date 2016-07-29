@@ -81,9 +81,10 @@ ul {
 	margin-bottom: 0;
 	padding-left: 30px;
 }
-#content li {
+#content #content-core li {
 	margin-bottom: 5px;
 }
+#content .pagination li,
 #content ul.pagination li {
 	background-image: none;
 	padding-left: 0;
@@ -733,7 +734,7 @@ main h1.documentFirstHeading {
 	/*#content {
 		padding-right: 20px;
 	}*/
-	#content li {
+	#content #content-core li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -881,7 +882,7 @@ main h1.documentFirstHeading {
 	/*#content {
 		padding-right: 30px;
 	}*/
-	#content li {
+	#content #content-core li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -1029,7 +1030,7 @@ main h1.documentFirstHeading {
 	/*	#content {
 		padding-right: 54px;
 	}*/
-	#content li {
+	#content #content-core li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -1235,7 +1236,7 @@ main h1.documentFirstHeading {
 		border: none;
 		border-radius: 0;
 		margin-bottom: 0;
-		margin-right: 20px;
+		margin-right: 0px;
 		padding-right: 40px;
 		background-image: url(menu.png);
 		background-repeat: no-repeat;
@@ -1274,7 +1275,7 @@ main h1.documentFirstHeading {
 		font-size: 20px;
 		line-height: 24px;
 	}
-	#content li {
+	#content #content-core li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -1322,8 +1323,21 @@ main h1.documentFirstHeading {
 	/* sidebar portlets */
 	.portletNavigationTree, .portletCalendar {
 		width: 100%;
-		max-width: 450px;
-		padding-left: 15px;
+		/*max-width: 450px;*/
+		/*padding-left: 15px;*/
+	}
+	.portletCalendar .portletContent {
+		background-color: transparent;
+		border-color: #48b7ae;
+	}
+	.portletNavigationTree, .portletCalendar table {
+		background-color: transparent;
+	}
+	.portlet.portletCalendar table .today > * {
+		background-color: #b4d5d3;
+	}
+	.portlet.portletCalendar table thead {
+		border-color: #95ccc8;
 	}
 	
 	/* footer content */
@@ -1332,15 +1346,22 @@ main h1.documentFirstHeading {
 	}
 	#footer-background .section.mission {
 		display: block;
-		width: 100%;
-		margin: 0;
-		padding: 0 20px 0 15px;
+		width: auto;
+		float: none;
+		margin: 20px -30px;
+		padding: 20px 35px 20px 35px;
 		font-size: 18px;
 		line-height: 22px;
+		background-color: white;
 	}
 	#footer-background .section h3 {
 		font-size: 16px;
-		}
+		border-bottom-width: 0;
+		margin-top: 0;
+	}
+	#footer-background p {
+		margin-bottom: 0;
+	}
 	#footer-background #social-icons {
 		padding: 0 20px 0 13px;
 		text-align: center;
@@ -1372,7 +1393,12 @@ main h1.documentFirstHeading {
 	.template-homepage_view .performance {
 		float: none;
 		text-align: center;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
+		background-color: white;
+		padding-bottom: 20px;
+	}
+	.template-homepage_view .performance .tileFooter a {
+		padding: 5px 25px;
 	}
 	.template-homepage_view #view-full-season {
 		display: none;
@@ -1385,10 +1411,13 @@ main h1.documentFirstHeading {
 		border-width: 0;
 		text-align: center;
 		padding: 10px;
-		margin: 0px -45px 25px -45px;
+		margin: 0px -30px 25px -30px;
 		font-size: 20px;
 		text-transform: uppercase;
 		font-weight: 600;
+	}
+	.template-homepage_view .portletStaticText h1 {
+		/*margin: 0px -15px 25px -15px;*/
 	}
 	.template-homepage_view #homepage-this-season {
 		border-width: 0;
@@ -1403,6 +1432,7 @@ main h1.documentFirstHeading {
 	}
 	.template-homepage_view .portletStaticText ul {
 		margin-bottom: 20px;
+		padding-left: 20px;
 	}
 	.template-homepage_view .portletStaticText li {
 		padding-left: 8px;
@@ -1414,12 +1444,16 @@ main h1.documentFirstHeading {
 		background-color: transparent;
 		color: black;
 	}
+	.template-homepage_view #portal-column-two {
+		margin: 0px 15px;
+	}
 	/* Season */
 	.template-season_view .showListing .tileItem {
 		float: none;
 		text-align: center;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 		background-color: white;
+		padding-bottom: 10px;
 	}
 	.template-season_view h1.currentSeasonTitle, 
 	.template-season_view #past-season h1, 
@@ -1435,7 +1469,9 @@ main h1.documentFirstHeading {
 	.template-season_view #title-popejoy {
 		margin-bottom: 0;
 	}
-	.template-season_view #main-container {
+	.template-season_view #main-container,
+	.template-homepage_view #main-container
+	{
 		background-color: @gray-light;
 		margin-left: -15px;
 		margin-right: -15px;
