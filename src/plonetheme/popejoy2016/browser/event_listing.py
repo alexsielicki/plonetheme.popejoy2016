@@ -262,10 +262,10 @@ class EventListing(BrowserView):
             main_msgid = _(u"all_events", default=u"All events")
 
         elif mode == 'past':
-            main_msgid = _(u"past_events", default=u"Past events")
+            main_msgid = _(u"past_events", default=u"Past Events At Popejoy Hall")
 
         elif mode == 'future':
-            main_msgid = _(u"future_events", default=u"Future events")
+            main_msgid = _(u"future_events", default=u"Events At Popejoy Hall")
 
         elif mode == 'now':
             main_msgid = _(u"todays_upcoming_events",
