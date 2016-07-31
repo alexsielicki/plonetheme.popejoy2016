@@ -77,6 +77,10 @@
         </tr>
       </tbody>
     </table>
+    <a class="viewFullCalendar" href="#"
+      tal:attributes="href string: ${navigation_root_url}/event_listing">
+      View Full Calendar &raquo;
+    </a>
   </section>
 </section>
 </html>
