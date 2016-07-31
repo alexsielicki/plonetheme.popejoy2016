@@ -1,29 +1,40 @@
 <configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:browser="http://namespaces.zope.org/browser"
-    xmlns:plone="http://namespaces.plone.org/plone"
-    i18n_domain="plonetheme.popejoy2016">
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  i18n_domain="plonetheme.popejoy2016">
 
   <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
   <include package="z3c.jbot" file="meta.zcml" />
   <browser:jbot
-      directory="overrides"
-      layer="plonetheme.popejoy2016.interfaces.IPlonethemePopejoy2016Layer"
-      />
+    directory="overrides"
+    layer="plonetheme.popejoy2016.interfaces.IPlonethemePopejoy2016Layer"
+    />
 
   <!-- Publish static files -->
   <browser:resourceDirectory
-      name="plonetheme.popejoy2016"
-      directory="static"
-      />
+    name="plonetheme.popejoy2016"
+    directory="static"
+    />
 
-      <browser:page
-        for="*"
-        name="event_listing"
-        class=".event_listing.EventListing"
-        template="event_listing.pt"
-        permission="zope2.View"
-        layer="..interfaces.IPlonethemePopejoy2016Layer"
-        />
+  <!-- Override event listing template -->
+  <browser:page
+    for="*"
+    name="event_listing"
+    class=".event_listing.EventListing"
+    template="event_listing.pt"
+    permission="zope2.View"
+    layer="..interfaces.IPlonethemePopejoy2016Layer"
+    />
+
+  <!-- Override calendar portlet -->
+  <include package="plone.app.event" />
+  <plone:portletRenderer
+    portlet="plone.app.event.portlets.portlet_calendar.ICalendarPortlet"
+    class=".portlet_calendar.Renderer"
+    layer="..interfaces.IPlonethemePopejoy2016Layer"
+    zcml:condition="have plone-5"
+    />
 
 </configure>
