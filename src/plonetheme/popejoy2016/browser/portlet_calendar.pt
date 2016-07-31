@@ -38,7 +38,6 @@
   </header>
 
   <section class="portletContent">
-    HELLO
     <table class="ploneCalendar" summary="Calendar"
         i18n:attributes="summary summary_calendar">
       <caption class="hiddenStructure"

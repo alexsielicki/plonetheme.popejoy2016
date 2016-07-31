@@ -6,10 +6,14 @@ from datetime import timedelta
 from plone.app.event import messageFactory as _
 from plone.app.event.base import RET_MODE_ACCESSORS
 from plone.app.event.base import RET_MODE_OBJECTS
+from plone.app.event.base import RET_MODE_BRAINS
 from plone.app.event.base import _prepare_range
 from plone.app.event.base import date_speller
 from plone.app.event.base import expand_events
-from plone.app.event.base import get_events
+
+# from plone.app.event.base import get_events
+from plonetheme.popejoy2016.get_events import get_events
+
 from plone.app.event.base import guess_date_from
 from plone.app.event.base import localized_now
 from plone.app.event.base import start_end_from_mode
@@ -105,7 +109,7 @@ class EventListing(BrowserView):
         start, end = start_end_from_mode(self.mode, self.date, self.context)
         return start, end
 
-    def _get_events(self, ret_mode=RET_MODE_ACCESSORS, expand=True):
+    def _get_events(self, ret_mode=RET_MODE_OBJECTS, expand=True):
         context = self.context
         kw = {}
         if self.uid:
@@ -135,7 +139,7 @@ class EventListing(BrowserView):
             sort_reverse = True
         return get_events(context, start=start, end=end,
                           sort=sort, sort_reverse=sort_reverse,
-                          ret_mode=ret_mode, expand=expand, **kw)
+                          ret_mode=RET_MODE_BRAINS, expand=expand, **kw)
 
     @view.memoize
     def events(self, ret_mode=RET_MODE_ACCESSORS, expand=False, batch=True):
@@ -300,10 +304,10 @@ class EventListing(BrowserView):
                 u"events_on_day",
                 default=u"Events on ${day}",
                 mapping={
-                    'day': "%s, %s. %s %s" % (
+                    'day': "%s, %s %s, %s" % (
                         start_dict['wkday_name'],
-                        start.day,
                         start_dict['month_name'],
+                        start.day,
                         start.year
                     ),
                 }
