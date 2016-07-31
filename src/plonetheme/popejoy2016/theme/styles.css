@@ -5818,8 +5818,8 @@ ul {
 /* line 88, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #content .pagination li,
 #content ul.pagination li {
-  background-image: none;
-  padding-left: 0;
+  background-image: none !important;
+  padding-left: 0 !important;
 }
 /* line 93, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 a,
@@ -6020,88 +6020,110 @@ main h1.documentFirstHeading {
 .portlet.portletCalendar table tbody tr:first-child td > * {
   margin-top: 0;
 }
+/* line 275, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+.portlet.portletCalendar tbody a {
+  color: black;
+  font-weight: 600;
+}
+/* line 279, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+.portlet.portletCalendar table .cal_has_events a:after {
+  content: none;
+}
+/* line 282, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+.portlet.portletCalendar a.viewFullCalendar {
+  text-transform: uppercase;
+  text-align: right;
+  display: block;
+  color: #3d9a92;
+  font-weight: 600;
+  padding-right: 0;
+}
 /* Navigation Portlet */
-/* line 277, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 292, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .navTreeItem {
   font-weight: 700;
   line-height: 1.0em;
   text-align: center;
 }
-/* line 282, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 297, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .portletNavigationTree .portletContent .navTreeTopNode {
   display: none;
 }
-/* line 285, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 300, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .portletNavigationTree nav.portletContent > ul > li a {
   border-top-width: 10px;
   border-top-color: white;
 }
-/* line 289, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 304, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .portletNavigationTree .portletContent > ul > li > a {
   background-color: #b6b6b8;
   color: #ffffff;
   text-transform: uppercase;
 }
-/* line 294, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 309, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .portletNavigationTree .portletContent .navTreeCurrentNode > a {
   color: #ffffff;
   background-color: #000000;
 }
-/* line 298, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 313, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .portletNavigationTree .portletContent .navTreeCurrentNode > a:after,
 .portletNavigationTree .portletContent > ul > li > a:hover:after {
   content: none;
 }
-/* line 303, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 318, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .portletNavigationTree .portletContent > ul > li > a:hover {
   background-color: #000000;
   text-decoration: none;
 }
 /* Calendar */
-/* line 309, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 324, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_listing .vevent div.cal_info {
   margin-top: 20px;
 }
-/* line 312, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 327, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_listing .vevent div.cal_date {
   width: 120px;
   margin-top: 3px;
 }
-/* line 316, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 331, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_listing h2.tileHeadline {
   text-transform: none;
   border-bottom-width: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 322, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 337, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_listing .time {
   color: black;
 }
-/* line 325, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 340, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_listing .popejoyPresents {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
   color: #3d9a92;
 }
+/* line 346, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+.template-event_listing .vevent span.cal_month {
+  background-color: #6d6e71;
+}
 /* Footer */
-/* line 333, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 351, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #portal-footer {
   font-size: 13px;
 }
-/* line 336, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 354, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #portal-footer-wrapper {
   background-color: #6d6e71;
   padding: 0;
   text-align: left;
 }
-/* line 341, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 359, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background {
   background-color: #e2e2e3;
   color: #000000;
 }
-/* line 345, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 363, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background .section {
   float: left;
   margin-right: 40px;
@@ -6109,16 +6131,16 @@ main h1.documentFirstHeading {
   font-weight: 400;
   line-height: 23px;
 }
-/* line 352, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 370, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background .section.mission {
   width: 125px;
   font-weight: 200;
 }
-/* line 356, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 374, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background .section.mission h3 {
   margin-bottom: 9px;
 }
-/* line 359, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 377, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background .section h3 {
   border-bottom: 1px solid #b4b4b5;
   font-weight: 600;
@@ -6128,63 +6150,63 @@ main h1.documentFirstHeading {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 368, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 386, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background p {
   border-bottom-width: 0;
   padding-bottom: 0;
 }
-/* line 372, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 390, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background .section ul {
   padding: 0;
   list-style: none;
   margin-bottom: 20px;
 }
-/* line 377, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 395, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background .section ul li {
   padding-bottom: 4px;
 }
-/* line 380, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 398, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background .section a {
   color: #000000;
 }
-/* line 383, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 401, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background #social-icons {
   padding-top: 20px;
 }
-/* line 386, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 404, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background #newsletter-signup {
   padding-top: 28px;
   font-size: 13px;
   font-weight: 200;
 }
-/* line 391, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 409, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #footer-background #newsletter-signup a {
   text-transform: uppercase;
   color: #3d9a92;
   font-size: 14px;
   font-weight: 600;
 }
-/* line 397, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 415, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #colophon-background {
   color: #aeaeb0;
 }
-/* line 400, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 418, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #colophon-background .colophonWrapper {
   padding: 30px 0;
 }
-/* line 403, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 421, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #colophon-background #copyright {
   float: left;
   font-weight: 300;
   color: #b9b9bb;
 }
-/* line 408, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 426, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #colophon-background #partners {
   text-align: right;
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 416, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 434, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #colophon-background #unm-logo-colophon,
 #colophon-background #broadway-logo-colophon {
   display: block;
@@ -6195,39 +6217,39 @@ main h1.documentFirstHeading {
   width: 50%;
   background-size: contain;
 }
-/* line 427, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 445, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #colophon-background #broadway-logo-colophon {
   background-image: url(broadway_nm.png);
   background-size: 100%;
   width: 50%;
   background-position: left center;
 }
-/* line 433, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 451, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #colophon-background #unm-logo-colophon {
   background-image: url(unm_logo.png);
   background-size: 112%;
   background-position: lefft center;
 }
 /* Homepage */
-/* line 440, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 458, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view #title-popejoy {
   display: none;
 }
-/* line 443, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 461, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view #slideshow-popejoy {
   margin-bottom: 20px;
 }
-/* line 446, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 464, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view #content {
   margin-top: 10px;
 }
-/* line 449, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 467, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #myGallery,
 #myGallerySet,
 #flickrGallery {
   z-index: 1 !important;
 }
-/* line 452, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 470, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 #homepage-slideshow-js-component,
 #myGallery {
   width: 100%;
@@ -6235,11 +6257,11 @@ main h1.documentFirstHeading {
   background-color: black;
   overflow: hidden;
 }
-/* line 460, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 478, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .jdGallery .slideElement {
   background-size: contain;
 }
-/* line 463, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 481, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .performance h3 {
   text-transform: none;
   border-bottom-width: 0;
@@ -6248,16 +6270,16 @@ main h1.documentFirstHeading {
   font-size: 20px;
   font-weight: 600;
 }
-/* line 471, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 489, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .performance h3 a {
   color: #000000;
 }
-/* line 474, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 492, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .performance h3 a:focus,
 .template-homepage_view .performance h3 a:hover {
   border-bottom-width: 0;
 }
-/* line 479, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 497, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .performance .tileFooter a {
   text-transform: uppercase;
   color: #ffffff;
@@ -6267,46 +6289,46 @@ main h1.documentFirstHeading {
   display: inline-block;
   line-height: 25px;
 }
-/* line 488, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 506, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .performance {
   float: left;
   overflow: hidden;
 }
-/* line 492, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 510, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .performance img {
   width: 100%;
   height: auto;
 }
-/* line 496, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 514, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .performance:last-child {
   margin-right: 0;
 }
-/* line 499, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 517, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view #homepage-this-season {
   border-top: 1px solid #cccccc;
 }
-/* line 502, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 520, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view #view-full-season {
   float: right;
   text-transform: uppercase;
   font-weight: 500;
 }
-/* line 507, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 525, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view #upcoming-shows-header {
   border-bottom-width: 0;
   margin-top: 5px;
   margin-bottom: 20px;
 }
-/* line 512, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 530, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .portletStaticText h1,
 .template-homepage_view .portletStaticText ul {
   display: none;
 }
-/* line 517, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 535, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .portletStaticText p {
   margin-bottom: 10px;
 }
-/* line 520, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 538, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-homepage_view .portletStaticText a {
   display: block;
   background-color: #48b7ae;
@@ -6317,53 +6339,53 @@ main h1.documentFirstHeading {
   line-height: 25px;
 }
 /* Season */
-/* line 531, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 549, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .currentSeasonTitle {
   clear: left;
 }
-/* line 534, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 552, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .tileItem {
   float: left;
   overflow: hidden;
 }
-/* line 538, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 556, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .showListing .tileItem:nth-child(4n) {
   margin-right: 0;
 }
-/* line 541, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 559, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .showListing .tileItem:nth-child(4n+1) {
   clear: left;
 }
-/* line 544, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 562, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .tileItem h2 {
   text-transform: none;
   border-bottom-width: 0;
   margin-bottom: 0;
   margin-top: 15px;
 }
-/* line 550, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 568, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .tileItem h2 a {
   color: #000000;
 }
-/* line 553, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 571, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .tileItem h2 a:focus,
 .template-season_view .tileItem h2 a:hover {
   border-bottom-width: 0;
 }
-/* line 558, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 576, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .tileItem p {
   margin-bottom: 10px;
 }
-/* line 561, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 579, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .tileItem img {
   width: 100%;
   height: auto;
 }
-/* line 565, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 583, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view #past-shows {
   clear: left;
 }
-/* line 568, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 586, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view h1.currentSeasonTitle,
 .template-season_view #past-season h1,
 .template-season_view #past-shows h1 {
@@ -6373,7 +6395,7 @@ main h1.documentFirstHeading {
   padding-top: 10px;
   border-top: 1px solid #cccccc;
 }
-/* line 578, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 596, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-season_view .tileFooter a {
   text-transform: uppercase;
   color: #ffffff;
@@ -6382,53 +6404,53 @@ main h1.documentFirstHeading {
   font-weight: 500;
 }
 /* Shows */
-/* line 587, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 605, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-performance_view .eventDetails {
   display: none;
 }
-/* line 590, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 608, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-performance_view .documentDescription,
 .template-show_view .documentDescription {
   display: none;
 }
-/* line 595, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 613, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .headerWideImage {
   padding-bottom: 20px;
   width: 100%;
   height: auto;
 }
-/* line 600, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 618, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .starburstWrapper {
   float: right;
   padding-left: 20px;
   background-color: white;
 }
-/* line 605, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 623, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .performance-dates-wrapper {
   float: left;
   margin-right: 40px;
   min-width: 210px;
 }
-/* line 610, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 628, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .performance-dates-wrapper ul {
   padding-left: 20px;
 }
-/* line 613, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 631, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .leftClear {
   display: block;
   clear: left;
 }
-/* line 617, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 635, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .visualClear {
   display: block;
   clear: both;
 }
-/* line 621, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 639, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .performanceStart.soldOutDate {
   text-decoration: line-through;
   color: #cccccc;
 }
-/* line 625, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 643, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .performance-dates-wrapper .soldOut,
 .vevent .soldOutPerformance {
   color: #cc3333;
@@ -6436,120 +6458,120 @@ main h1.documentFirstHeading {
   font-size: 12px;
   font-weight: 500;
 }
-/* line 633, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 651, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .vevent .soldOutPerformance {
   font-size: 20px;
 }
 /* Now Playing */
-/* line 638, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 656, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-nowplaying_view .documentDescription {
   display: none;
 }
 /* Events */
-/* line 643, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 661, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_view .eventDetails {
   float: right;
   max-width: 300px;
 }
-/* line 647, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 665, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_view .eventDetails table {
   border-width: 0;
 }
-/* line 650, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 668, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_view .eventDetails th {
   color: #6d6e71;
   background-color: white !important;
   border-left-width: 0;
   border-right-width: 0;
 }
-/* line 656, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 674, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_view .eventDetails td {
   color: #000000;
   background-color: white !important;
   border-left-width: 0;
   border-right-width: 0;
 }
-/* line 662, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+/* line 680, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
 .template-event_view .eventDetails abbr {
   cursor: pointer;
   border-bottom-width: 0;
 }
 /* No Toolbar Breakpoints */
 @media (min-width: 768px) {
-  /* line 670, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 688, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-logo img {
     width: 120px;
   }
-  /* line 673, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 691, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-header {
     margin-right: -20px;
     max-height: 148px;
     min-height: 148px;
   }
-  /* line 678, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 696, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-searchbox {
     margin-right: 0;
     margin-left: 10px;
     padding: 8px 15px;
     width: 210px;
   }
-  /* line 684, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 702, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 689, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 707, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #searchGadget_form #searchGadget {
     margin-left: -64px;
     height: 28px;
     width: 132px;
   }
-  /* line 694, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 712, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 12px 0;
   }
   /* primary nav */
-  /* line 699, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 717, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #mainnavigation-wrapper {
     margin-top: -54px;
   }
-  /* line 702, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 720, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar {
     max-height: 40px;
     min-height: 40px;
     background-color: #6d6e71;
   }
-  /* line 707, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 725, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 710, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 728, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 713, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 731, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 716, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 734, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-nav > li > a {
     padding: 11px 10px 0 10px;
     font-size: 15px;
     height: 40px;
   }
   /* page content */
-  /* line 722, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 740, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy {
     height: 66px;
   }
-  /* line 725, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 743, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 34px;
     font-size: 24px;
   }
-  /* line 729, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 747, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6559,24 +6581,24 @@ main h1.documentFirstHeading {
   /*#content {
     padding-right: 20px;
   }*/
-  /* line 738, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 756, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content #content-core li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 744, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 762, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content-core p {
     font-size: 16px;
     line-height: 22px;
   }
-  /* line 748, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 766, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 752, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 770, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -6585,23 +6607,23 @@ main h1.documentFirstHeading {
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 760, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 778, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p {
     margin: 0 -10px 10px -15px;
   }
-  /* line 763, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 781, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p img.image-inline {
     float: none;
     margin: 0;
     width: 200px;
   }
   /* sidebar portlets */
-  /* line 769, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 787, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .navTreeItem {
     font-size: 14px;
   }
   /* footer content */
-  /* line 773, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 791, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section {
     width: 140px;
     margin-left: 0;
@@ -6609,7 +6631,7 @@ main h1.documentFirstHeading {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 780, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 798, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section.mission {
     width: 450px;
     margin-right: 0;
@@ -6617,116 +6639,116 @@ main h1.documentFirstHeading {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 787, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 805, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #social-icons img {
     width: 24px;
   }
-  /* line 790, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 808, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #newsletter-signup {
     width: 205px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 796, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 814, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #homepage-slideshow-js-component,
   #myGallery {
     height: 217px;
   }
-  /* line 801, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 819, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance {
     margin-right: 16px;
     width: 121px;
   }
-  /* line 805, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 823, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 10px;
   }
   /* Season */
-  /* line 811, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 829, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .tileItem {
     width: 121px;
     margin-right: 16px;
   }
-  /* line 815, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 833, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 11px;
   }
 }
 @media (min-width: 992px) {
-  /* line 820, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 838, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-logo img {
     width: 140px;
   }
-  /* line 823, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 841, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-header {
     max-height: 172px;
     min-height: 172px;
   }
-  /* line 827, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 845, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 8px 10px;
     width: 240px;
   }
-  /* line 832, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 850, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 837, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 855, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #searchGadget_form #searchGadget {
     width: 100px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 842, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 860, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 11px 0;
   }
   /* primary nav */
-  /* line 847, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 865, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #mainnavigation-wrapper {
     margin-top: -60px;
   }
-  /* line 850, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 868, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar {
     min-height: 45px;
     max-height: 45px;
     background-color: #6d6e71;
   }
-  /* line 855, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 873, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 858, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 876, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 861, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 879, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 864, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 882, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-nav > li > a {
     padding: 13px 18px 0 18px;
     font-size: 18px;
     height: 45px;
   }
   /* page content */
-  /* line 870, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 888, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 873, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 891, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 877, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 895, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6736,24 +6758,24 @@ main h1.documentFirstHeading {
   /*#content {
     padding-right: 30px;
   }*/
-  /* line 886, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 904, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content #content-core li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 892, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 910, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 896, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 914, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 900, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 918, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -6762,23 +6784,23 @@ main h1.documentFirstHeading {
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 908, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 926, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p {
     margin: 0 -10px 10px -15px;
   }
-  /* line 911, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 929, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p img.image-inline {
     float: none;
     margin: 0;
     width: 280px;
   }
   /* sidebar portlets */
-  /* line 917, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 935, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .navTreeItem {
     font-size: 16px;
   }
   /* footer content */
-  /* line 921, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 939, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section {
     width: 127px;
     margin-left: 20px;
@@ -6786,7 +6808,7 @@ main h1.documentFirstHeading {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 928, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 946, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section.mission {
     width: 154px;
     margin-right: 15px;
@@ -6794,116 +6816,116 @@ main h1.documentFirstHeading {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 935, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 953, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #social-icons img {
     width: 28px;
   }
-  /* line 938, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 956, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #newsletter-signup {
     width: 240px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 944, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 962, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #homepage-slideshow-js-component,
   #myGallery {
     height: 283px;
   }
-  /* line 949, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 967, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance {
     margin-right: 20px;
     width: 159px;
   }
-  /* line 953, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 971, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 14px;
   }
   /* Season */
-  /* line 959, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 977, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .tileItem {
     width: 159px;
     margin-right: 20px;
   }
-  /* line 963, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 981, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 968, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 986, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-logo img {
     width: 166px;
   }
-  /* line 971, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 989, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-header {
     max-height: 204px;
     min-height: 204px;
   }
-  /* line 975, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 993, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 12px 15px;
     width: 265px;
   }
-  /* line 980, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 998, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 985, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1003, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #searchGadget_form #searchGadget {
     width: 120px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 990, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1008, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 15px 0;
   }
   /* primary nav */
-  /* line 995, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1013, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #mainnavigation-wrapper {
     margin-top: -74px;
   }
-  /* line 998, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1016, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar {
     max-height: 55px;
     min-height: 55px;
     background-color: #6d6e71;
   }
-  /* line 1003, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1021, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 1006, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1024, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 1009, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1027, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 1012, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1030, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-nav > li > a {
     padding: 18px 24px 0 24px;
     font-size: 22px;
     height: 55px;
   }
   /* page content */
-  /* line 1018, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1036, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 1021, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1039, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 1025, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1043, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6913,24 +6935,24 @@ main h1.documentFirstHeading {
   /*  #content {
     padding-right: 54px;
   }*/
-  /* line 1034, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1052, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content #content-core li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1040, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1058, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 1044, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1062, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 1048, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1066, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -6939,23 +6961,23 @@ main h1.documentFirstHeading {
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1056, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1074, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p {
     margin: 0 -10px 10px -15px;
   }
-  /* line 1059, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1077, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p img.image-inline {
     float: none;
     margin: 0;
     width: 350px;
   }
   /* sidebar portlets */
-  /* line 1065, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1083, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .navTreeItem {
     font-size: 16px;
   }
   /* footer content */
-  /* line 1069, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1087, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section {
     width: 180px;
     margin-left: 22px;
@@ -6963,7 +6985,7 @@ main h1.documentFirstHeading {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 1076, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1094, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section.mission {
     width: 150px;
     margin-right: 15px;
@@ -6971,60 +6993,60 @@ main h1.documentFirstHeading {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 1083, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1101, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #social-icons img {
     width: 32px;
   }
-  /* line 1086, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1104, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #newsletter-signup {
     width: 285px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 1092, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1110, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #homepage-slideshow-js-component,
   #myGallery {
     height: 343px;
   }
-  /* line 1097, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1115, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance {
     margin-right: 25px;
     width: 193px;
   }
-  /* line 1101, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1119, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 16px;
   }
   /* Season */
-  /* line 1107, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1125, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .tileItem {
     width: 193px;
     margin-right: 25px;
   }
-  /* line 1111, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1129, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 16px;
   }
 }
 /* Small with Toolbar Breakpoints */
 @media (min-width: 768px) {
-  /* line 1118, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1136, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-top-default #homepage-slideshow-js-component,
   .plone-toolbar-top-default #myGallery {
     height: 217px;
   }
 }
 @media (min-width: 828px) {
-  /* line 1125, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1143, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-left-default #homepage-slideshow-js-component,
   .plone-toolbar-left-default #myGallery {
     height: 217px;
   }
 }
 @media (min-width: 888px) {
-  /* line 1132, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1150, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-left-expanded #homepage-slideshow-js-component,
   .plone-toolbar-left-expanded #myGallery {
     height: 217px;
@@ -7032,21 +7054,21 @@ main h1.documentFirstHeading {
 }
 /* Medium with Toolbar Breakpoints */
 @media (min-width: 992px) {
-  /* line 1141, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1159, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-top-default #homepage-slideshow-js-component,
   .plone-toolbar-top-default #myGallery {
     height: 283px;
   }
 }
 @media (min-width: 1052px) {
-  /* line 1148, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1166, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-left-default #homepage-slideshow-js-component,
   .plone-toolbar-left-default #myGallery {
     height: 283px;
   }
 }
 @media (min-width: 1112px) {
-  /* line 1155, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1173, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-left-expanded #homepage-slideshow-js-component,
   .plone-toolbar-left-expanded #myGallery {
     height: 283px;
@@ -7054,21 +7076,21 @@ main h1.documentFirstHeading {
 }
 /* Large with Toolbar Breakpoints */
 @media (min-width: 1200px) {
-  /* line 1164, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1182, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-top-default #homepage-slideshow-js-component,
   .plone-toolbar-top-default #myGallery {
     height: 343px;
   }
 }
 @media (min-width: 1260px) {
-  /* line 1171, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1189, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-left-default #homepage-slideshow-js-component,
   .plone-toolbar-left-default #myGallery {
     height: 343px;
   }
 }
 @media (min-width: 1320px) {
-  /* line 1178, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1196, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-toolbar-left-expanded #homepage-slideshow-js-component,
   .plone-toolbar-left-expanded #myGallery {
     height: 343px;
@@ -7076,7 +7098,7 @@ main h1.documentFirstHeading {
 }
 /* Mobile */
 @media (max-width: 767px) {
-  /* line 1187, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1205, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-logo img,
   #portal-searchbox,
   #contact-popejoy,
@@ -7084,7 +7106,7 @@ main h1.documentFirstHeading {
   #homepage-body-text {
     display: none;
   }
-  /* line 1195, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1213, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #portal-logo {
     display: block;
     position: absolute;
@@ -7096,32 +7118,32 @@ main h1.documentFirstHeading {
     z-index: 1;
   }
   /* primary nav */
-  /* line 1206, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1224, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #mainnavigation-wrapper {
     margin-top: -54px;
     margin-bottom: 11px;
   }
-  /* line 1210, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1228, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar {
     max-height: none;
     min-height: initial;
     background-color: transparent;
   }
-  /* line 1215, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1233, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-header {
     padding: 0 15px 0 15px;
   }
-  /* line 1218, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1236, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar .container {
     padding: 0;
   }
-  /* line 1221, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1239, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-nav {
     float: none;
     margin-top: 10px;
     text-align: center;
   }
-  /* line 1226, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1244, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-nav > li > a {
     padding: 13px 10px 0 10px;
     font-size: 18px;
@@ -7129,7 +7151,7 @@ main h1.documentFirstHeading {
     background-color: #6d6e71;
     border-bottom: 3px solid #fff;
   }
-  /* line 1233, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1251, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .plone-navbar-toggle {
     font-size: 18px;
     text-shadow: none;
@@ -7146,7 +7168,7 @@ main h1.documentFirstHeading {
     font-weight: 400;
   }
   /* structural */
-  /* line 1249, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1267, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .container,
   #edit-zone.plone-toolbar-top .plone-toolbar-container,
   .plone-modal .plone-modal-content,
@@ -7154,49 +7176,49 @@ main h1.documentFirstHeading {
   .plone-toolbar-left-default .container {
     width: auto;
   }
-  /* line 1254, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1272, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .col-xs-6 {
     width: 100%;
   }
-  /* line 1257, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1275, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   iframe {
     width: 100%;
   }
-  /* line 1260, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1278, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .row {
     margin: 0;
   }
   /* page content */
-  /* line 1265, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1283, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy {
     height: auto;
   }
-  /* line 1268, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1286, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 34px;
     margin-left: 15px;
     text-align: center;
   }
-  /* line 1273, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1291, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 14px;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 1279, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1297, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content #content-core li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1285, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1303, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 23px;
   }
-  /* line 1289, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1307, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #content-header .container {
     padding: 0;
     background-color: #48b8af;
@@ -7205,7 +7227,7 @@ main h1.documentFirstHeading {
     height: 79px;
     border-bottom: 3px solid #fff;
   }
-  /* line 1297, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1315, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   button {
     background-color: transparent;
     box-shadow: none;
@@ -7213,7 +7235,7 @@ main h1.documentFirstHeading {
     border: none;
   }
   /* inline image and caption */
-  /* line 1305, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1323, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote {
     float: none;
     margin: 0 0 20px 0;
@@ -7223,11 +7245,11 @@ main h1.documentFirstHeading {
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1314, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1332, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p {
     margin: 0 -10px 10px -15px;
   }
-  /* line 1317, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1335, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .pullquote p img.image-inline {
     float: none;
     margin: 0;
@@ -7235,37 +7257,37 @@ main h1.documentFirstHeading {
     max-width: 350px;
   }
   /* sidebar portlets */
-  /* line 1325, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1343, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .portletNavigationTree,
   .portletCalendar {
     width: 100%;
     /*max-width: 450px;*/
     /*padding-left: 15px;*/
   }
-  /* line 1330, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1348, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .portletCalendar .portletContent {
     background-color: transparent;
     border-color: #48b7ae;
   }
-  /* line 1334, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1352, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .portletNavigationTree,
   .portletCalendar table {
     background-color: transparent;
   }
-  /* line 1337, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1355, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .portlet.portletCalendar table .today > * {
     background-color: #b4d5d3;
   }
-  /* line 1340, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1358, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .portlet.portletCalendar table thead {
     border-color: #95ccc8;
   }
   /* footer content */
-  /* line 1345, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1363, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section {
     display: none;
   }
-  /* line 1348, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1366, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section.mission {
     display: block;
     width: auto;
@@ -7276,42 +7298,42 @@ main h1.documentFirstHeading {
     line-height: 22px;
     background-color: white;
   }
-  /* line 1358, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1376, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background .section h3 {
     font-size: 16px;
     border-bottom-width: 0;
     margin-top: 0;
   }
-  /* line 1363, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1381, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background p {
     margin-bottom: 0;
   }
-  /* line 1366, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1384, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #social-icons {
     padding: 0 20px 0 13px;
     text-align: center;
   }
-  /* line 1370, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1388, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #social-icons img {
     width: 32px;
   }
-  /* line 1373, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1391, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #footer-background #newsletter-signup {
     padding: 20px 20px 20px 15px;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
   }
-  /* line 1379, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1397, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #colophon-background #copyright {
     padding-left: 15px;
     display: none;
   }
-  /* line 1383, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1401, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #colophon-background #partners {
     text-align: center;
   }
-  /* line 1386, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1404, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   #colophon-background #unm-logo-colophon,
   #colophon-background #broadway-logo-colophon {
     width: 50%;
@@ -7319,7 +7341,7 @@ main h1.documentFirstHeading {
     background-position: center;
   }
   /* Homepage */
-  /* line 1394, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1412, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance {
     float: none;
     text-align: center;
@@ -7327,15 +7349,15 @@ main h1.documentFirstHeading {
     background-color: white;
     padding-bottom: 20px;
   }
-  /* line 1401, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1419, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .performance .tileFooter a {
     padding: 5px 25px;
   }
-  /* line 1404, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1422, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view #view-full-season {
     display: none;
   }
-  /* line 1407, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1425, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view #upcoming-shows-header,
   .template-homepage_view .portletStaticText h1 {
     background-color: #929295;
@@ -7348,46 +7370,46 @@ main h1.documentFirstHeading {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 1420, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1438, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .portletStaticText h1 {
     /*margin: 0px -15px 25px -15px;*/
   }
-  /* line 1423, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1441, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view #homepage-this-season {
     border-width: 0;
   }
-  /* line 1426, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1444, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view #content {
     margin-top: 0;
   }
-  /* line 1429, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1447, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .portletStaticText h1,
   .template-homepage_view .portletStaticText ul {
     display: block;
   }
-  /* line 1434, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1452, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .portletStaticText ul {
     margin-bottom: 20px;
     padding-left: 20px;
   }
-  /* line 1438, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1456, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .portletStaticText li {
     padding-left: 8px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 14px;
   }
-  /* line 1444, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1462, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view .portletStaticText ul a {
     background-color: transparent;
     color: black;
   }
-  /* line 1448, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1466, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-homepage_view #portal-column-two {
     margin: 0px 15px;
   }
   /* Season */
-  /* line 1452, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1470, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .showListing .tileItem {
     float: none;
     text-align: center;
@@ -7395,7 +7417,7 @@ main h1.documentFirstHeading {
     background-color: white;
     padding-bottom: 10px;
   }
-  /* line 1459, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1477, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view h1.currentSeasonTitle,
   .template-season_view #past-season h1,
   .template-season_view #past-shows h1 {
@@ -7406,18 +7428,18 @@ main h1.documentFirstHeading {
     padding: 10px;
     margin: 3px -45px 25px -45px;
   }
-  /* line 1470, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1488, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view #title-popejoy {
     margin-bottom: 0;
   }
-  /* line 1473, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1491, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view #main-container,
   .template-homepage_view #main-container {
     background-color: #e2e2e3;
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 1480, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
+  /* line 1498, http://localhost:8080/Plone/++theme++popejoy2016/styles.less */
   .template-season_view .tileItem h2,
   .template-season_view .tileItem p {
     margin-left: 20px;
