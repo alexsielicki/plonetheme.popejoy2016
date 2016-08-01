@@ -488,6 +488,7 @@ main h1.documentFirstHeading {
 	margin-top: 15px;
 	font-size: 20px;
 	font-weight: 600;
+	min-height: 70px;
 }
 .template-homepage_view .performance h3 a {
 	color: @black-text;
@@ -555,6 +556,7 @@ main h1.documentFirstHeading {
 .template-season_view .tileItem {
 	float: left;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 .template-season_view .showListing .tileItem:nth-child(4n) {
 	margin-right: 0;
@@ -567,6 +569,7 @@ main h1.documentFirstHeading {
 	border-bottom-width: 0;
 	margin-bottom: 0;
 	margin-top: 15px;
+	min-height: 70px;
 }
 .template-season_view .tileItem h2 a {
 	color: @black-text;
@@ -1419,6 +1422,9 @@ main h1.documentFirstHeading {
 		background-color: white;
 		padding-bottom: 20px;
 	}
+	.template-homepage_view .performance h3 {
+		min-height: auto;
+	}
 	.template-homepage_view .performance:nth-child(n+3) {
 		display: none;
 	}
@@ -1468,9 +1474,23 @@ main h1.documentFirstHeading {
 	.template-homepage_view .portletStaticText ul a {
 		background-color: transparent;
 		color: black;
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.template-homepage_view .portletStaticText p a {
+		text-align: center;
 	}
 	.template-homepage_view #portal-column-two {
 		margin: 0px 15px;
+	}
+	.portlet.portletCalendar a.viewFullCalendar {
+		font-size: 17px;
+		text-align: left;
+	}
+	.portlet.portletCalendar table td,
+	.portlet.portletCalendar table th
+	{
+		font-size: 18px;
 	}
 	/* Season */
 	.template-season_view .showListing .tileItem {
@@ -1506,5 +1526,8 @@ main h1.documentFirstHeading {
 	{
 		margin-left: 20px;
 		margin-right: 20px;
+	}
+	.template-season_view .tileItem h2 {
+		min-height: auto;
 	}
 }

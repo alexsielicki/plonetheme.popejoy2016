@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<registry>
+	<records prefix="plone.resources/plonetheme-popejoy2016"
+	         interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+	  <value key="js">++resource++plonetheme.popejoy2016/popejoy.js</value>
+	</records>
+</registry>
