@@ -277,6 +277,23 @@ class Renderer(base.Renderer):
                         u', ' if not whole_day and location else u'',
                         u' %s' % location if location else u'')
 
+            popejoy_events_string = u""
+            if date_events:
+                for occ in date_events:
+                    # accessor = IEventAccessor(occ)
+                    # location = accessor.location
+                    location = occ.location
+                    # whole_day = accessor.whole_day
+                    whole_day = False
+                    # time = accessor.start.time().strftime('%H:%M')
+                    time = occ.start().asdatetime().time().strftime('%-I:%M %P')
+                    # TODO: make 24/12 hr format configurable
+                    base = u'%s'\
+                           u'%s \n'
+                    popejoy_events_string += base % (
+                        occ.title,
+                        u' %s' % time if not whole_day else u'')
+
             caldata[-1].append(
                 {'date': dat,
                  'day': dat.day,
@@ -288,6 +305,7 @@ class Renderer(base.Renderer):
                     dat.day == today.day,
                  'date_string': u"%s-%s-%s" % (dat.year, dat.month, dat.day),
                  'events_string': events_string,
+                 'popejoy_events_string': popejoy_events_string,
                  'events': date_events})
         return caldata
 
