@@ -5918,24 +5918,12 @@ a:focus {
   font-size: 14px;
   color: #000;
 }
-@media (min-width: 768px) {
-  /* line 184, http://localhost:8080/Plone/++theme++test/styles.less */
-  #portal-searchbox {
-    width: 261px;
-  }
-  /* line 187, http://localhost:8080/Plone/++theme++test/styles.less */
-  #portal-searchbox [type="text"] {
-    float: none;
-    width: 120px;
-    display: inline-block;
-  }
-}
-/* line 194, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 184, http://localhost:8080/Plone/++theme++test/styles.less */
 #title-popejoy {
   background-color: #e2e2e3;
   margin-bottom: 20px;
 }
-/* line 198, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 188, http://localhost:8080/Plone/++theme++test/styles.less */
 #title-popejoy .documentFirstHeading {
   border-bottom-width: 0;
   margin-bottom: 0;
@@ -5944,22 +5932,22 @@ a:focus {
   font-size: 24px;
   font-weight: 600;
 }
-/* line 207, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 197, http://localhost:8080/Plone/++theme++test/styles.less */
 main h1.documentFirstHeading {
   display: none;
 }
 /* Portlets */
-/* line 212, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 202, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet {
   border-width: 0;
   box-shadow: none;
   border-radius: 0;
 }
-/* line 217, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 207, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet .portletContent {
   border-color: #cccccc;
 }
-/* line 220, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 210, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet .portletHeader {
   font-size: 20px;
   font-weight: 600;
@@ -5967,27 +5955,27 @@ main h1.documentFirstHeading {
   background-color: transparent;
 }
 /* Calendar */
-/* line 228, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 218, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar .portletHeader {
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
 }
-/* line 233, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 223, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar .portletHeader .calendarPrevious,
 .portlet.portletCalendar .portletHeader .calendarNext {
   position: static;
 }
-/* line 238, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 228, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table {
   border-width: 0;
 }
-/* line 241, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 231, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table thead {
   border-color: #cccccc;
   background-color: transparent;
 }
-/* line 245, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 235, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table thead th {
   padding: 0;
   font-weight: 500;
@@ -5995,47 +5983,47 @@ main h1.documentFirstHeading {
   color: #6d6e71;
   height: auto;
 }
-/* line 252, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 242, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table thead th,
 .portlet.portletCalendar table tbody td {
   border-width: 0;
   background-color: transparent;
 }
-/* line 258, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 248, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table tr {
   line-height: 25px;
 }
-/* line 261, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 251, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table .cal_next_month,
 .portlet.portletCalendar table .cal_prev_month {
   color: #999999;
 }
-/* line 267, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 257, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table td > * {
   border-radius: 0;
   /*width: @cal-cell-size;*/
   height: 27px;
   line-height: 27px;
 }
-/* line 273, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 263, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table .today > * {
   box-shadow: none;
   background-color: #c8e9e6;
 }
-/* line 277, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 267, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table tbody tr:first-child td > * {
   margin-top: 0;
 }
-/* line 280, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 270, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar tbody a {
   color: black;
   font-weight: 600;
 }
-/* line 284, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 274, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar table .cal_has_events a:after {
   content: none;
 }
-/* line 287, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 277, http://localhost:8080/Plone/++theme++test/styles.less */
 .portlet.portletCalendar a.viewFullCalendar {
   text-transform: uppercase;
   text-align: right;
@@ -6045,100 +6033,100 @@ main h1.documentFirstHeading {
   padding-right: 0;
 }
 /* Navigation Portlet */
-/* line 297, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 287, http://localhost:8080/Plone/++theme++test/styles.less */
 .navTreeItem {
   font-weight: 700;
   line-height: 1.0em;
   text-align: center;
 }
-/* line 302, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 292, http://localhost:8080/Plone/++theme++test/styles.less */
 .portletNavigationTree .portletContent .navTreeTopNode {
   display: none;
 }
-/* line 305, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 295, http://localhost:8080/Plone/++theme++test/styles.less */
 .portletNavigationTree nav.portletContent > ul > li a {
   border-top-width: 10px;
   border-top-color: white;
 }
-/* line 309, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 299, http://localhost:8080/Plone/++theme++test/styles.less */
 .portletNavigationTree .portletContent > ul > li > a {
   background-color: #b6b6b8;
   color: #ffffff;
   text-transform: uppercase;
 }
-/* line 314, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 304, http://localhost:8080/Plone/++theme++test/styles.less */
 .portletNavigationTree .portletContent .navTreeCurrentNode > a {
   color: #ffffff;
   background-color: #000000;
 }
-/* line 318, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 308, http://localhost:8080/Plone/++theme++test/styles.less */
 .portletNavigationTree .portletContent .navTreeCurrentNode > a:after,
 .portletNavigationTree .portletContent > ul > li > a:hover:after {
   content: none;
 }
-/* line 323, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 313, http://localhost:8080/Plone/++theme++test/styles.less */
 .portletNavigationTree .portletContent > ul > li > a:hover {
   background-color: #000000;
   text-decoration: none;
 }
 /* Calendar */
-/* line 329, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 319, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing .documentDescription {
   display: none;
 }
-/* line 332, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 322, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing .vevent div.cal_info {
   margin-top: 0px;
 }
-/* line 335, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 325, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing .vevent div.cal_date {
   width: 120px;
   margin-top: 3px;
 }
-/* line 339, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 329, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing h2.tileHeadline {
   text-transform: none;
   border-bottom-width: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 345, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 335, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing .time {
   color: black;
 }
-/* line 348, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 338, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing .popejoyPresents {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
   color: #3d9a92;
 }
-/* line 354, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 344, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing .vevent span.cal_month {
   background-color: #6d6e71;
 }
-/* line 357, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 347, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_listing .vevent.tileItem {
   clear: left;
   padding-top: 20px;
 }
 /* Footer */
-/* line 363, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 353, http://localhost:8080/Plone/++theme++test/styles.less */
 #portal-footer {
   font-size: 13px;
 }
-/* line 366, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 356, http://localhost:8080/Plone/++theme++test/styles.less */
 #portal-footer-wrapper {
   background-color: #6d6e71;
   padding: 0;
   text-align: left;
 }
-/* line 371, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 361, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background {
   background-color: #e2e2e3;
   color: #000000;
 }
-/* line 375, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 365, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background .section {
   float: left;
   margin-right: 40px;
@@ -6146,16 +6134,16 @@ main h1.documentFirstHeading {
   font-weight: 400;
   line-height: 23px;
 }
-/* line 382, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 372, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background .section.mission {
   width: 125px;
   font-weight: 200;
 }
-/* line 386, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 376, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background .section.mission h3 {
   margin-bottom: 9px;
 }
-/* line 389, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 379, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background .section h3 {
   border-bottom: 1px solid #b4b4b5;
   font-weight: 600;
@@ -6165,63 +6153,63 @@ main h1.documentFirstHeading {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 398, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 388, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background p {
   border-bottom-width: 0;
   padding-bottom: 0;
 }
-/* line 402, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 392, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background .section ul {
   padding: 0;
   list-style: none;
   margin-bottom: 20px;
 }
-/* line 407, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 397, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background .section ul li {
   padding-bottom: 4px;
 }
-/* line 410, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 400, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background .section a {
   color: #000000;
 }
-/* line 413, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 403, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background #social-icons {
   padding-top: 20px;
 }
-/* line 416, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 406, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background #newsletter-signup {
   padding-top: 28px;
   font-size: 13px;
   font-weight: 200;
 }
-/* line 421, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 411, http://localhost:8080/Plone/++theme++test/styles.less */
 #footer-background #newsletter-signup a {
   text-transform: uppercase;
   color: #3d9a92;
   font-size: 14px;
   font-weight: 600;
 }
-/* line 427, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 417, http://localhost:8080/Plone/++theme++test/styles.less */
 #colophon-background {
   color: #aeaeb0;
 }
-/* line 430, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 420, http://localhost:8080/Plone/++theme++test/styles.less */
 #colophon-background .colophonWrapper {
   padding: 30px 0;
 }
-/* line 433, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 423, http://localhost:8080/Plone/++theme++test/styles.less */
 #colophon-background #copyright {
   float: left;
   font-weight: 300;
   color: #b9b9bb;
 }
-/* line 438, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 428, http://localhost:8080/Plone/++theme++test/styles.less */
 #colophon-background #partners {
   text-align: right;
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 446, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 436, http://localhost:8080/Plone/++theme++test/styles.less */
 #colophon-background #unm-logo-colophon,
 #colophon-background #broadway-logo-colophon {
   display: block;
@@ -6232,39 +6220,39 @@ main h1.documentFirstHeading {
   width: 50%;
   background-size: contain;
 }
-/* line 457, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 447, http://localhost:8080/Plone/++theme++test/styles.less */
 #colophon-background #broadway-logo-colophon {
   background-image: url(broadway_nm.png);
   background-size: 100%;
   width: 50%;
   background-position: left center;
 }
-/* line 463, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 453, http://localhost:8080/Plone/++theme++test/styles.less */
 #colophon-background #unm-logo-colophon {
   background-image: url(unm_logo.png);
   background-size: 112%;
   background-position: lefft center;
 }
 /* Homepage */
-/* line 470, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 460, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view #title-popejoy {
   display: none;
 }
-/* line 473, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 463, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view #slideshow-popejoy {
   margin-bottom: 20px;
 }
-/* line 476, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 466, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view #content {
   margin-top: 10px;
 }
-/* line 479, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 469, http://localhost:8080/Plone/++theme++test/styles.less */
 #myGallery,
 #myGallerySet,
 #flickrGallery {
   z-index: 1 !important;
 }
-/* line 482, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 472, http://localhost:8080/Plone/++theme++test/styles.less */
 #homepage-slideshow-js-component,
 #myGallery {
   width: 100%;
@@ -6272,11 +6260,11 @@ main h1.documentFirstHeading {
   background-color: black;
   overflow: hidden;
 }
-/* line 490, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 480, http://localhost:8080/Plone/++theme++test/styles.less */
 .jdGallery .slideElement {
   background-size: contain;
 }
-/* line 493, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 483, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance h3 {
   text-transform: none;
   border-bottom-width: 0;
@@ -6285,21 +6273,21 @@ main h1.documentFirstHeading {
   font-size: 20px;
   font-weight: 600;
 }
-/* line 501, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 491, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance h3 a {
   color: #000000;
 }
-/* line 504, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 494, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance h3 a:focus,
 .template-homepage_view .performance h3 a:hover {
   border-bottom-width: 0;
 }
-/* line 509, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 499, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance .tileFooter {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 513, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 503, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance .tileFooter a {
   text-transform: uppercase;
   color: #ffffff;
@@ -6311,46 +6299,46 @@ main h1.documentFirstHeading {
   line-height: 25px;
   text-align: center;
 }
-/* line 524, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 514, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance {
   float: left;
   overflow: hidden;
 }
-/* line 528, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 518, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance img {
   width: 100%;
   height: auto;
 }
-/* line 532, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 522, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .performance:last-child {
   margin-right: 0;
 }
-/* line 535, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 525, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view #homepage-this-season {
   border-top: 1px solid #cccccc;
 }
-/* line 538, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 528, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view #view-full-season {
   float: right;
   text-transform: uppercase;
   font-weight: 500;
 }
-/* line 543, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 533, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view #upcoming-shows-header {
   border-bottom-width: 0;
   margin-top: 5px;
   margin-bottom: 20px;
 }
-/* line 548, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 538, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .portletStaticText h1,
 .template-homepage_view .portletStaticText ul {
   display: none;
 }
-/* line 553, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 543, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .portletStaticText p {
   margin-bottom: 10px;
 }
-/* line 556, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 546, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-homepage_view .portletStaticText a {
   display: block;
   background-color: #48b7ae;
@@ -6361,59 +6349,59 @@ main h1.documentFirstHeading {
   line-height: 25px;
 }
 /* Season */
-/* line 567, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 557, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .currentSeasonTitle {
   clear: left;
 }
-/* line 570, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 560, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileItem {
   float: left;
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 575, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 565, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .showListing .tileItem:nth-child(4n) {
   margin-right: 0;
 }
-/* line 578, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 568, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .showListing .tileItem:nth-child(4n+1) {
   clear: left;
 }
-/* line 581, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 571, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileItem h2 {
   text-transform: none;
   border-bottom-width: 0;
   margin-bottom: 0;
   margin-top: 15px;
 }
-/* line 587, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 577, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileItem h2 a {
   color: #000000;
 }
-/* line 590, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 580, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileItem h2 a:focus,
 .template-season_view .tileItem h2 a:hover {
   border-bottom-width: 0;
 }
-/* line 595, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 585, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileItem p {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-/* line 599, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 589, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileItem p.tileBody {
   display: block;
 }
-/* line 602, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 592, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileItem img {
   width: 100%;
   height: auto;
 }
-/* line 606, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 596, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view #past-shows {
   clear: left;
 }
-/* line 609, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 599, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view h1.currentSeasonTitle,
 .template-season_view #past-season h1,
 .template-season_view #past-shows h1 {
@@ -6423,7 +6411,7 @@ main h1.documentFirstHeading {
   padding-top: 10px;
   border-top: 1px solid #cccccc;
 }
-/* line 619, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 609, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileFooter a {
   text-transform: uppercase;
   color: #ffffff;
@@ -6434,59 +6422,59 @@ main h1.documentFirstHeading {
   width: 100%;
   text-align: center;
 }
-/* line 629, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 619, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-season_view .tileFooter {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 /* Shows */
-/* line 635, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 625, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-performance_view .eventDetails {
   display: none;
 }
-/* line 638, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 628, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-performance_view .documentDescription,
 .template-show_view .documentDescription {
   display: none;
 }
-/* line 643, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 633, http://localhost:8080/Plone/++theme++test/styles.less */
 .headerWideImage {
   padding-bottom: 20px;
   width: 100%;
   height: auto;
 }
-/* line 648, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 638, http://localhost:8080/Plone/++theme++test/styles.less */
 .starburstWrapper {
   float: right;
   padding-left: 20px;
   background-color: white;
 }
-/* line 653, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 643, http://localhost:8080/Plone/++theme++test/styles.less */
 .performance-dates-wrapper {
   float: left;
   margin-right: 40px;
   min-width: 210px;
 }
-/* line 658, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 648, http://localhost:8080/Plone/++theme++test/styles.less */
 .performance-dates-wrapper ul {
   padding-left: 20px;
 }
-/* line 661, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 651, http://localhost:8080/Plone/++theme++test/styles.less */
 .leftClear {
   display: block;
   clear: left;
 }
-/* line 665, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 655, http://localhost:8080/Plone/++theme++test/styles.less */
 .visualClear {
   display: block;
   clear: both;
 }
-/* line 669, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 659, http://localhost:8080/Plone/++theme++test/styles.less */
 .performanceStart.soldOutDate {
   text-decoration: line-through;
   color: #cccccc;
 }
-/* line 673, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 663, http://localhost:8080/Plone/++theme++test/styles.less */
 .performance-dates-wrapper .soldOut,
 .vevent .soldOutPerformance {
   color: #cc3333;
@@ -6494,46 +6482,46 @@ main h1.documentFirstHeading {
   font-size: 12px;
   font-weight: 500;
 }
-/* line 681, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 671, http://localhost:8080/Plone/++theme++test/styles.less */
 .vevent .soldOutPerformance {
   font-size: 20px;
 }
 /* Now Playing */
-/* line 686, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 676, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-nowplaying_view .documentDescription {
   display: none;
 }
 /* Events */
-/* line 691, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 681, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_view .eventDetails {
   float: right;
   max-width: 300px;
 }
-/* line 695, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 685, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_view .eventDetails table {
   border-width: 0;
 }
-/* line 698, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 688, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_view .eventDetails th {
   color: #6d6e71;
   background-color: white !important;
   border-left-width: 0;
   border-right-width: 0;
 }
-/* line 704, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 694, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_view .eventDetails td {
   color: #000000;
   background-color: white !important;
   border-left-width: 0;
   border-right-width: 0;
 }
-/* line 710, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 700, http://localhost:8080/Plone/++theme++test/styles.less */
 .template-event_view .eventDetails abbr {
   cursor: pointer;
   border-bottom-width: 0;
 }
 /* Content */
-/* line 716, http://localhost:8080/Plone/++theme++test/styles.less */
+/* line 706, http://localhost:8080/Plone/++theme++test/styles.less */
 .image-right {
   float: right !important;
   clear: both;
@@ -6541,80 +6529,86 @@ main h1.documentFirstHeading {
 }
 /* No Toolbar Breakpoints */
 @media (min-width: 768px) {
-  /* line 725, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 714, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
     width: 120px;
   }
-  /* line 728, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 717, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
     margin-right: -20px;
     max-height: 148px;
     min-height: 148px;
   }
-  /* line 733, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 722, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox {
-    margin-right: 0;
+    margin-right: 20px;
     margin-left: 10px;
     padding: 8px 15px;
     width: 210px;
   }
-  /* line 739, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 728, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 744, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 733, http://localhost:8080/Plone/++theme++test/styles.less */
+  #portal-searchbox [type="text"] {
+    float: none;
+    width: 120px;
+    display: inline-block;
+  }
+  /* line 738, http://localhost:8080/Plone/++theme++test/styles.less */
   #searchGadget_form #searchGadget {
     margin-left: -64px;
     height: 28px;
     width: 132px;
   }
-  /* line 749, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 743, http://localhost:8080/Plone/++theme++test/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 12px 0;
   }
   /* primary nav */
-  /* line 754, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 748, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
     margin-top: -54px;
   }
-  /* line 757, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 751, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
     max-height: 40px;
     min-height: 40px;
     background-color: #6d6e71;
   }
-  /* line 762, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 756, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 765, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 759, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 768, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 762, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 771, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 765, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-nav > li > a {
     padding: 11px 10px 0 10px;
     font-size: 15px;
     height: 40px;
   }
   /* page content */
-  /* line 777, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 771, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy {
     height: 66px;
   }
-  /* line 780, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 774, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 34px;
     font-size: 24px;
   }
-  /* line 784, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 778, http://localhost:8080/Plone/++theme++test/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6624,24 +6618,24 @@ main h1.documentFirstHeading {
   /*#content {
     padding-right: 20px;
   }*/
-  /* line 793, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 787, http://localhost:8080/Plone/++theme++test/styles.less */
   #content #content-core li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 799, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 793, http://localhost:8080/Plone/++theme++test/styles.less */
   #content-core p {
     font-size: 16px;
     line-height: 22px;
   }
-  /* line 803, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 797, http://localhost:8080/Plone/++theme++test/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 807, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 801, http://localhost:8080/Plone/++theme++test/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -6650,23 +6644,21 @@ main h1.documentFirstHeading {
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 815, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p {
-    margin: 0 -10px 10px -15px;
-  }
-  /* line 818, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p img.image-inline {
+  /* line 811, http://localhost:8080/Plone/++theme++test/styles.less */
+  .pullquote p img.image-inline,
+  .pullquote img {
     float: none;
     margin: 0;
     width: 200px;
+    margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 824, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 820, http://localhost:8080/Plone/++theme++test/styles.less */
   .navTreeItem {
     font-size: 14px;
   }
   /* footer content */
-  /* line 828, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 824, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section {
     width: 140px;
     margin-left: 0;
@@ -6674,7 +6666,7 @@ main h1.documentFirstHeading {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 835, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 831, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission {
     width: 450px;
     margin-right: 0;
@@ -6682,116 +6674,116 @@ main h1.documentFirstHeading {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 842, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 838, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons img {
     width: 24px;
   }
-  /* line 845, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 841, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #newsletter-signup {
     width: 205px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 851, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 847, http://localhost:8080/Plone/++theme++test/styles.less */
   #homepage-slideshow-js-component,
   #myGallery {
     height: 217px;
   }
-  /* line 856, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 852, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance {
     margin-right: 16px;
     width: 121px;
   }
-  /* line 860, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 856, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 10px;
   }
   /* Season */
-  /* line 866, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 862, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem {
     width: 121px;
     margin-right: 16px;
   }
-  /* line 870, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 866, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 11px;
   }
 }
 @media (min-width: 992px) {
-  /* line 875, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 871, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
     width: 140px;
   }
-  /* line 878, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 874, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
     max-height: 172px;
     min-height: 172px;
   }
-  /* line 882, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 878, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 8px 10px;
     width: 240px;
   }
-  /* line 887, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 883, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 892, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 888, http://localhost:8080/Plone/++theme++test/styles.less */
   #searchGadget_form #searchGadget {
     width: 100px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 897, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 893, http://localhost:8080/Plone/++theme++test/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 11px 0;
   }
   /* primary nav */
-  /* line 902, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 898, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
     margin-top: -60px;
   }
-  /* line 905, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 901, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
     min-height: 45px;
     max-height: 45px;
     background-color: #6d6e71;
   }
-  /* line 910, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 906, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 913, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 909, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 916, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 912, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 919, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 915, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-nav > li > a {
     padding: 13px 18px 0 18px;
     font-size: 18px;
     height: 45px;
   }
   /* page content */
-  /* line 925, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 921, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 928, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 924, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 932, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 928, http://localhost:8080/Plone/++theme++test/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6801,24 +6793,24 @@ main h1.documentFirstHeading {
   /*#content {
     padding-right: 30px;
   }*/
-  /* line 941, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 937, http://localhost:8080/Plone/++theme++test/styles.less */
   #content #content-core li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 947, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 943, http://localhost:8080/Plone/++theme++test/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 951, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 947, http://localhost:8080/Plone/++theme++test/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 955, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 951, http://localhost:8080/Plone/++theme++test/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -6827,23 +6819,21 @@ main h1.documentFirstHeading {
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 963, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p {
-    margin: 0 -10px 10px -15px;
-  }
-  /* line 966, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p img.image-inline {
+  /* line 961, http://localhost:8080/Plone/++theme++test/styles.less */
+  .pullquote p img.image-inline,
+  .pullquote img {
     float: none;
     margin: 0;
     width: 280px;
+    margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 972, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 970, http://localhost:8080/Plone/++theme++test/styles.less */
   .navTreeItem {
     font-size: 16px;
   }
   /* footer content */
-  /* line 976, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 974, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section {
     width: 127px;
     margin-left: 20px;
@@ -6851,7 +6841,7 @@ main h1.documentFirstHeading {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 983, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 981, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission {
     width: 154px;
     margin-right: 15px;
@@ -6859,116 +6849,116 @@ main h1.documentFirstHeading {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 990, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 988, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons img {
     width: 28px;
   }
-  /* line 993, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 991, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #newsletter-signup {
     width: 240px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 999, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 997, http://localhost:8080/Plone/++theme++test/styles.less */
   #homepage-slideshow-js-component,
   #myGallery {
     height: 283px;
   }
-  /* line 1004, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1002, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance {
     margin-right: 20px;
     width: 159px;
   }
-  /* line 1008, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1006, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 14px;
   }
   /* Season */
-  /* line 1014, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1012, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem {
     width: 159px;
     margin-right: 20px;
   }
-  /* line 1018, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1016, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 1023, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1021, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
     width: 166px;
   }
-  /* line 1026, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1024, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
     max-height: 204px;
     min-height: 204px;
   }
-  /* line 1030, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1028, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 12px 15px;
     width: 265px;
   }
-  /* line 1035, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1033, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 1040, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1038, http://localhost:8080/Plone/++theme++test/styles.less */
   #searchGadget_form #searchGadget {
     width: 120px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 1045, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1043, http://localhost:8080/Plone/++theme++test/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 15px 0;
   }
   /* primary nav */
-  /* line 1050, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1048, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
     margin-top: -74px;
   }
-  /* line 1053, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1051, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
     max-height: 55px;
     min-height: 55px;
     background-color: #6d6e71;
   }
-  /* line 1058, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1056, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 1061, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1059, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 1064, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1062, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 1067, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1065, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-nav > li > a {
     padding: 18px 24px 0 24px;
     font-size: 22px;
     height: 55px;
   }
   /* page content */
-  /* line 1073, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1071, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 1076, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1074, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 1080, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1078, http://localhost:8080/Plone/++theme++test/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6978,24 +6968,24 @@ main h1.documentFirstHeading {
   /*  #content {
     padding-right: 54px;
   }*/
-  /* line 1089, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1087, http://localhost:8080/Plone/++theme++test/styles.less */
   #content #content-core li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1095, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1093, http://localhost:8080/Plone/++theme++test/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 1099, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1097, http://localhost:8080/Plone/++theme++test/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 1103, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1101, http://localhost:8080/Plone/++theme++test/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -7005,14 +6995,12 @@ main h1.documentFirstHeading {
     line-height: 16px;
   }
   /* line 1111, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p {
-    margin: 0 -10px 10px -15px;
-  }
-  /* line 1114, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p img.image-inline {
+  .pullquote p img.image-inline,
+  .pullquote img {
     float: none;
     margin: 0;
     width: 350px;
+    margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
   /* line 1120, http://localhost:8080/Plone/++theme++test/styles.less */
@@ -7288,49 +7276,47 @@ main h1.documentFirstHeading {
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1369, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p {
-    margin: 0 -10px 10px -15px;
-  }
-  /* line 1372, http://localhost:8080/Plone/++theme++test/styles.less */
-  .pullquote p img.image-inline {
+  /* line 1371, http://localhost:8080/Plone/++theme++test/styles.less */
+  .pullquote p img.image-inline,
+  .pullquote img {
     float: none;
     margin: 0;
     width: 100%;
     max-width: 350px;
+    margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1380, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1382, http://localhost:8080/Plone/++theme++test/styles.less */
   .portletNavigationTree,
   .portletCalendar {
     width: 100%;
     /*max-width: 450px;*/
     /*padding-left: 15px;*/
   }
-  /* line 1385, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1387, http://localhost:8080/Plone/++theme++test/styles.less */
   .portletCalendar .portletContent {
     background-color: transparent;
     border-color: #48b7ae;
   }
-  /* line 1389, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1391, http://localhost:8080/Plone/++theme++test/styles.less */
   .portletNavigationTree,
   .portletCalendar table {
     background-color: transparent;
   }
-  /* line 1392, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1394, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar table .today > * {
     background-color: #b4d5d3;
   }
-  /* line 1395, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1397, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar table thead {
     border-color: #95ccc8;
   }
   /* footer content */
-  /* line 1400, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1402, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section {
     display: none;
   }
-  /* line 1403, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1405, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission {
     display: block;
     width: auto;
@@ -7341,42 +7327,42 @@ main h1.documentFirstHeading {
     line-height: 22px;
     background-color: white;
   }
-  /* line 1413, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1415, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section h3 {
     font-size: 16px;
     border-bottom-width: 0;
     margin-top: 0;
   }
-  /* line 1418, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1420, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background p {
     margin-bottom: 0;
   }
-  /* line 1421, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1423, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons {
     padding: 0 20px 0 13px;
     text-align: center;
   }
-  /* line 1425, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1427, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons img {
     width: 32px;
   }
-  /* line 1428, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1430, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #newsletter-signup {
     padding: 20px 20px 20px 15px;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
   }
-  /* line 1434, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1436, http://localhost:8080/Plone/++theme++test/styles.less */
   #colophon-background #copyright {
     padding-left: 15px;
     display: none;
   }
-  /* line 1438, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1440, http://localhost:8080/Plone/++theme++test/styles.less */
   #colophon-background #partners {
     text-align: center;
   }
-  /* line 1441, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1443, http://localhost:8080/Plone/++theme++test/styles.less */
   #colophon-background #unm-logo-colophon,
   #colophon-background #broadway-logo-colophon {
     width: 50%;
@@ -7384,7 +7370,7 @@ main h1.documentFirstHeading {
     background-position: center;
   }
   /* Homepage */
-  /* line 1449, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1451, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance {
     float: none;
     text-align: center;
@@ -7392,23 +7378,23 @@ main h1.documentFirstHeading {
     background-color: white;
     padding-bottom: 20px;
   }
-  /* line 1456, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1458, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance h3 {
     min-height: auto;
   }
-  /* line 1459, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1461, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance:nth-child(n+3) {
     display: none;
   }
-  /* line 1462, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1464, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance .tileFooter a {
     padding: 5px 25px;
   }
-  /* line 1465, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1467, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #view-full-season {
     display: none;
   }
-  /* line 1468, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1470, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #upcoming-shows-header,
   .template-homepage_view .portletStaticText h1 {
     background-color: #929295;
@@ -7421,62 +7407,62 @@ main h1.documentFirstHeading {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 1481, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1483, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText h1 {
     /*margin: 0px -15px 25px -15px;*/
   }
-  /* line 1484, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1486, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #homepage-this-season {
     border-width: 0;
   }
-  /* line 1487, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1489, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #content {
     margin-top: 0;
   }
-  /* line 1490, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1492, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText h1,
   .template-homepage_view .portletStaticText ul {
     display: block;
   }
-  /* line 1495, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1497, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText ul {
     margin-bottom: 20px;
     padding-left: 20px;
   }
-  /* line 1499, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1501, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText li {
     padding-left: 8px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 14px;
   }
-  /* line 1505, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1507, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText ul a {
     background-color: transparent;
     color: black;
     font-size: 20px;
     font-weight: 400;
   }
-  /* line 1511, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1513, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText p a {
     text-align: center;
   }
-  /* line 1514, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1516, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #portal-column-two {
     margin: 0px 15px;
   }
-  /* line 1517, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1519, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar a.viewFullCalendar {
     font-size: 17px;
     text-align: left;
   }
-  /* line 1521, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1523, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar table td,
   .portlet.portletCalendar table th {
     font-size: 18px;
   }
   /* Season */
-  /* line 1527, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1529, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .showListing .tileItem {
     float: none;
     text-align: center;
@@ -7484,7 +7470,7 @@ main h1.documentFirstHeading {
     background-color: white;
     padding-bottom: 10px;
   }
-  /* line 1534, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1536, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view h1.currentSeasonTitle,
   .template-season_view #past-season h1,
   .template-season_view #past-shows h1 {
@@ -7495,29 +7481,29 @@ main h1.documentFirstHeading {
     padding: 10px;
     margin: 3px -45px 25px -45px;
   }
-  /* line 1545, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1547, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view #title-popejoy {
     margin-bottom: 0;
   }
-  /* line 1548, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1550, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view #main-container,
   .template-homepage_view #main-container {
     background-color: #e2e2e3;
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 1555, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1557, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem h2,
   .template-season_view .tileItem p {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 1561, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1563, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem h2 {
     min-height: auto;
   }
   /* Show */
-  /* line 1565, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1567, http://localhost:8080/Plone/++theme++test/styles.less */
   .starburstWrapper {
     float: none;
     padding-left: 0;
