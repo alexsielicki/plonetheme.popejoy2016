@@ -47,7 +47,7 @@ body {
 }
 .documentDescription {
 	color: @black-text;
-	border-bottom: 1px solid @gray-light-border;
+	border-bottom: 0px solid @gray-light-border;
 	font-weight: 300;
 	font-size: 19px;
 	padding-bottom: 15px;
@@ -67,6 +67,7 @@ h3 {
 	font-weight: 600;
 	margin-top: 40px;
 	margin-bottom: 20px;
+	border-bottom-width: 0;
 }
 #content-core a {
 	border-bottom-width: 0;
@@ -89,6 +90,9 @@ ul {
 #content ul.pagination li {
 	background-image: none !important;
 	padding-left: 0 !important;
+}
+#content .pagination ul {
+	padding-left: 0;
 }
 a,
 .portlet .portletHeader > a,
@@ -325,7 +329,7 @@ main h1.documentFirstHeading {
 	display: none;
 }
 .template-event_listing .vevent div.cal_info {
-	margin-top: 20px;
+	margin-top: 0px;
 }
 .template-event_listing .vevent div.cal_date {
 	width: 120px;
@@ -348,6 +352,10 @@ main h1.documentFirstHeading {
 }
 .template-event_listing .vevent span.cal_month {
 	background-color: #6d6e71;
+}
+.template-event_listing .vevent.tileItem {
+	clear: left;
+	padding-top: 20px;
 }
 
 /* Footer */
@@ -488,7 +496,6 @@ main h1.documentFirstHeading {
 	margin-top: 15px;
 	font-size: 20px;
 	font-weight: 600;
-	min-height: 70px;
 }
 .template-homepage_view .performance h3 a {
 	color: @black-text;
@@ -498,14 +505,20 @@ main h1.documentFirstHeading {
 {
 	border-bottom-width: 0;
 }
+.template-homepage_view .performance .tileFooter {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 .template-homepage_view .performance .tileFooter a {
 	text-transform: uppercase;
 	color: @white-text;
 	background-color: @cyan;
-	padding: 0px 10px;
+	padding: 5px 10px 3px 10px;
 	font-weight: 500;
-	display: inline-block;
+	display: block;
+	width: 100%;
 	line-height: 25px;
+	text-align: center;
 }
 .template-homepage_view .performance {
 	float: left;
@@ -569,7 +582,6 @@ main h1.documentFirstHeading {
 	border-bottom-width: 0;
 	margin-bottom: 0;
 	margin-top: 15px;
-	min-height: 70px;
 }
 .template-season_view .tileItem h2 a {
 	color: @black-text;
@@ -581,6 +593,10 @@ main h1.documentFirstHeading {
 }
 .template-season_view .tileItem p {
 	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.template-season_view .tileItem p.tileBody {
+	display: block;
 }
 .template-season_view .tileItem img {
 	width: 100%;
@@ -603,8 +619,15 @@ main h1.documentFirstHeading {
 	text-transform: uppercase;
 	color: @white-text;
 	background-color: @cyan;
-	padding: 0px 10px;
+	padding: 5px 10px 3px 10px;
 	font-weight: 500;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.template-season_view .tileFooter {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /* Shows */
@@ -1536,5 +1559,10 @@ main h1.documentFirstHeading {
 	}
 	.template-season_view .tileItem h2 {
 		min-height: auto;
+	}
+	/* Show */
+	.starburstWrapper {
+		float: none;
+		padding-left: 0;
 	}
 }
