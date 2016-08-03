@@ -179,16 +179,6 @@ a:focus
 	font-size: 14px;
 	color: #000;
 }
-@media (min-width: @plone-screen-sm-min) {
-	#portal-searchbox {
-		width: 261px;
-	}
-	#portal-searchbox [type="text"] {
-	    float: none;
-	    width: 120px;
-	    display: inline-block;
-	}
-}
 
 #title-popejoy {
 	background-color: @gray-light;
@@ -718,7 +708,6 @@ main h1.documentFirstHeading {
   margin: 0.5em;
 }
 
-
 /* No Toolbar Breakpoints */
 @media (min-width: @plone-screen-sm-min) {
 	#portal-logo img {
@@ -730,7 +719,7 @@ main h1.documentFirstHeading {
 		min-height: 148px;
 	}
 	#portal-searchbox {
-		margin-right: 0;
+		margin-right: 20px;
 		margin-left: 10px;
 		padding: 8px 15px;
 		width: 210px;
@@ -739,6 +728,11 @@ main h1.documentFirstHeading {
 		font-size: 14px;
 		margin-right: 4px;
 		margin-bottom: 0;
+	}
+	#portal-searchbox [type="text"] {
+	    float: none;
+	    width: 120px;
+	    display: inline-block;
 	}
 	#searchGadget_form #searchGadget {
 		margin-left: -64px;
@@ -812,12 +806,14 @@ main h1.documentFirstHeading {
 		line-height: 16px;
 	}
 	.pullquote p {
-		margin: 0 -10px 10px -15px;
 	}
-	.pullquote p img.image-inline {
+	.pullquote p img.image-inline,
+	.pullquote img
+	{
 		float: none;
 		margin: 0;
 		width: 200px;
+		margin: 0 -10px 10px -15px;
 	}
 	/* sidebar portlets */
 	.navTreeItem {
@@ -960,12 +956,14 @@ main h1.documentFirstHeading {
 		line-height: 16px;
 	}
 	.pullquote p {
-		margin: 0 -10px 10px -15px;
 	}
-	.pullquote p img.image-inline {
+	.pullquote p img.image-inline,
+	.pullquote img
+	{
 		float: none;
 		margin: 0;
 		width: 280px;
+		margin: 0 -10px 10px -15px;
 	}
 	/* sidebar portlets */
 	.navTreeItem {
@@ -1108,12 +1106,14 @@ main h1.documentFirstHeading {
 		line-height: 16px;
 	}
 	.pullquote p {
-		margin: 0 -10px 10px -15px;
 	}
-	.pullquote p img.image-inline {
+	.pullquote p img.image-inline,
+	.pullquote img
+	{
 		float: none;
 		margin: 0;
 		width: 350px;
+		margin: 0 -10px 10px -15px;
 	}
 	/* sidebar portlets */
 	.navTreeItem {
@@ -1366,13 +1366,15 @@ main h1.documentFirstHeading {
 		line-height: 16px;
 	}
 	.pullquote p {
-		margin: 0 -10px 10px -15px;
 	}
-	.pullquote p img.image-inline {
+	.pullquote p img.image-inline,
+	.pullquote img
+	{
 		float: none;
 		margin: 0;
 		width: 100%;
 		max-width: 350px;
+		margin: 0 -10px 10px -15px;
 	}
 	
 	/* sidebar portlets */
