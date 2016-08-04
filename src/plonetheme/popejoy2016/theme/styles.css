@@ -6696,7 +6696,7 @@ have a fixed width and height (but it's not required).
     padding-right: 20px;
   }*/
   /* line 863, http://localhost:8080/Plone/++theme++test/styles.less */
-  #content #content-core li {
+  #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
@@ -6757,125 +6757,124 @@ have a fixed width and height (but it's not required).
   }
   /* line 917, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #newsletter-signup {
-    width: 205px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 923, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 922, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance {
     margin-right: 16px;
     width: 121px;
   }
-  /* line 927, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 926, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 10px;
   }
   /* Season */
-  /* line 933, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 932, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem {
     width: 121px;
     margin-right: 16px;
   }
-  /* line 937, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 936, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 11px;
   }
 }
 @media (min-width: 992px) {
-  /* line 942, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 941, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel,
   #carousel img {
     width: 1024px;
   }
-  /* line 947, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 946, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel {
     margin-left: -84px;
   }
-  /* line 950, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 949, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel .title {
     font-size: 18px;
     height: 45px;
     line-height: 45px;
   }
-  /* line 955, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 954, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel .buttonText {
     margin-left: 84px;
     width: 140px;
   }
-  /* line 960, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 959, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
     width: 140px;
   }
-  /* line 963, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 962, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
     max-height: 172px;
     min-height: 172px;
   }
-  /* line 967, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 966, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 8px 10px;
     width: 240px;
   }
-  /* line 972, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 971, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 977, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 976, http://localhost:8080/Plone/++theme++test/styles.less */
   #searchGadget_form #searchGadget {
     width: 100px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 982, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 981, http://localhost:8080/Plone/++theme++test/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 11px 0;
   }
   /* primary nav */
-  /* line 987, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 986, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
     margin-top: -60px;
   }
-  /* line 990, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 989, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
     min-height: 45px;
     max-height: 45px;
     background-color: #6d6e71;
   }
-  /* line 995, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 994, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 998, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 997, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 1001, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1000, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 1004, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1003, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-nav > li > a {
     padding: 13px 18px 0 18px;
     font-size: 18px;
     height: 45px;
   }
   /* page content */
-  /* line 1010, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1009, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 1013, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1012, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 1017, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1016, http://localhost:8080/Plone/++theme++test/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6885,24 +6884,24 @@ have a fixed width and height (but it's not required).
   /*#content {
     padding-right: 30px;
   }*/
-  /* line 1026, http://localhost:8080/Plone/++theme++test/styles.less */
-  #content #content-core li {
+  /* line 1025, http://localhost:8080/Plone/++theme++test/styles.less */
+  #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1032, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1031, http://localhost:8080/Plone/++theme++test/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 1036, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1035, http://localhost:8080/Plone/++theme++test/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 1040, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1039, http://localhost:8080/Plone/++theme++test/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -6911,7 +6910,7 @@ have a fixed width and height (but it's not required).
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1050, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1049, http://localhost:8080/Plone/++theme++test/styles.less */
   .pullquote p img.image-inline,
   .pullquote img {
     float: none;
@@ -6920,152 +6919,151 @@ have a fixed width and height (but it's not required).
     margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1059, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1058, http://localhost:8080/Plone/++theme++test/styles.less */
   .navTreeItem {
     font-size: 16px;
   }
   /* footer content */
-  /* line 1063, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1062, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission,
   #footer-background .section {
     width: 159px;
     margin-right: 20px;
   }
-  /* line 1069, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1068, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 1073, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1072, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 1077, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1076, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons img {
     width: 28px;
   }
-  /* line 1080, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1079, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #newsletter-signup {
-    width: 240px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 1086, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1084, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance {
     margin-right: 20px;
     width: 159px;
   }
-  /* line 1090, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1088, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 14px;
   }
   /* Season */
-  /* line 1096, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1094, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem {
     width: 159px;
     margin-right: 20px;
   }
-  /* line 1100, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1098, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 1105, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1103, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel,
   #carousel img {
     width: 1240px;
   }
-  /* line 1110, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1108, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel {
     margin-left: -100px;
   }
-  /* line 1113, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1111, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel .title {
     font-size: 22px;
     height: 55px;
     line-height: 55px;
   }
-  /* line 1118, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1116, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel .buttonText {
     margin-left: 100px;
     width: 166px;
   }
-  /* line 1123, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1121, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
     width: 166px;
   }
-  /* line 1126, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1124, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
     max-height: 204px;
     min-height: 204px;
   }
-  /* line 1130, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1128, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 12px 15px;
     width: 265px;
   }
-  /* line 1135, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1133, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 1140, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1138, http://localhost:8080/Plone/++theme++test/styles.less */
   #searchGadget_form #searchGadget {
     width: 120px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 1145, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1143, http://localhost:8080/Plone/++theme++test/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 15px 0;
   }
   /* primary nav */
-  /* line 1150, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1148, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
     margin-top: -74px;
   }
-  /* line 1153, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1151, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
     max-height: 55px;
     min-height: 55px;
     background-color: #6d6e71;
   }
-  /* line 1158, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1156, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 1161, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1159, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 1164, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1162, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 1167, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1165, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-nav > li > a {
     padding: 18px 24px 0 24px;
     font-size: 22px;
     height: 55px;
   }
   /* page content */
-  /* line 1173, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1171, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 1176, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1174, http://localhost:8080/Plone/++theme++test/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 1180, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1178, http://localhost:8080/Plone/++theme++test/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -7075,24 +7073,24 @@ have a fixed width and height (but it's not required).
   /*  #content {
     padding-right: 54px;
   }*/
-  /* line 1189, http://localhost:8080/Plone/++theme++test/styles.less */
-  #content #content-core li {
+  /* line 1187, http://localhost:8080/Plone/++theme++test/styles.less */
+  #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1195, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1193, http://localhost:8080/Plone/++theme++test/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 1199, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1197, http://localhost:8080/Plone/++theme++test/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 1203, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1201, http://localhost:8080/Plone/++theme++test/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -7101,7 +7099,7 @@ have a fixed width and height (but it's not required).
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1213, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1211, http://localhost:8080/Plone/++theme++test/styles.less */
   .pullquote p img.image-inline,
   .pullquote img {
     float: none;
@@ -7110,55 +7108,54 @@ have a fixed width and height (but it's not required).
     margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1222, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1220, http://localhost:8080/Plone/++theme++test/styles.less */
   .navTreeItem {
     font-size: 16px;
   }
   /* footer content */
-  /* line 1226, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1224, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission,
   #footer-background .section {
     width: 193px;
     margin-right: 25px;
   }
-  /* line 1232, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1230, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 1236, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1234, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 1240, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1238, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons img {
     width: 32px;
   }
-  /* line 1243, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1241, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #newsletter-signup {
-    width: 285px;
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 1249, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1246, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance {
     margin-right: 25px;
     width: 193px;
   }
-  /* line 1253, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1250, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 16px;
   }
   /* Season */
-  /* line 1259, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1256, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem {
     width: 193px;
     margin-right: 25px;
   }
-  /* line 1263, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1260, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 16px;
   }
@@ -7168,6 +7165,10 @@ have a fixed width and height (but it's not required).
 /* Large with Toolbar Breakpoints */
 /* Mobile */
 @media (max-width: 767px) {
+  /* line 1291, http://localhost:8080/Plone/++theme++test/styles.less */
+  h2 {
+    font-size: 19px;
+  }
   /* line 1294, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img,
   #portal-searchbox,
@@ -7277,7 +7278,7 @@ have a fixed width and height (but it's not required).
     line-height: 24px;
   }
   /* line 1386, http://localhost:8080/Plone/++theme++test/styles.less */
-  #content #content-core li {
+  #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
@@ -7310,7 +7311,7 @@ have a fixed width and height (but it's not required).
     float: none;
     margin: 0 0 20px 0;
     padding: 0 10px 12px 15px;
-    width: 100%;
+    width: 245px;
     max-width: 325px;
     font-size: 13px;
     line-height: 16px;
@@ -7320,42 +7321,41 @@ have a fixed width and height (but it's not required).
   .pullquote img {
     float: none;
     margin: 0;
-    width: 100%;
-    max-width: 350px;
+    width: 245px;
     margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1434, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1433, http://localhost:8080/Plone/++theme++test/styles.less */
   .portletNavigationTree,
   .portletCalendar {
     width: 100%;
     /*max-width: 450px;*/
     /*padding-left: 15px;*/
   }
-  /* line 1439, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1438, http://localhost:8080/Plone/++theme++test/styles.less */
   .portletCalendar .portletContent {
     background-color: transparent;
     border-color: #48b7ae;
   }
-  /* line 1443, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1442, http://localhost:8080/Plone/++theme++test/styles.less */
   .portletNavigationTree,
   .portletCalendar table {
     background-color: transparent;
   }
-  /* line 1446, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1445, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar table .today > * {
     background-color: #b4d5d3;
   }
-  /* line 1449, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1448, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar table thead {
     border-color: #95ccc8;
   }
   /* footer content */
-  /* line 1454, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1453, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section {
     display: none;
   }
-  /* line 1457, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1456, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section.mission {
     display: block;
     width: auto;
@@ -7366,42 +7366,42 @@ have a fixed width and height (but it's not required).
     line-height: 22px;
     background-color: white;
   }
-  /* line 1467, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1466, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background .section h3 {
     font-size: 16px;
     border-bottom-width: 0;
     margin-top: 0;
   }
-  /* line 1472, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1471, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background p {
     margin-bottom: 0;
   }
-  /* line 1475, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1474, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons {
     padding: 0 20px 0 13px;
     text-align: center;
   }
-  /* line 1479, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1478, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #social-icons img {
     width: 32px;
   }
-  /* line 1482, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1481, http://localhost:8080/Plone/++theme++test/styles.less */
   #footer-background #newsletter-signup {
     padding: 20px 20px 20px 15px;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
   }
-  /* line 1488, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1487, http://localhost:8080/Plone/++theme++test/styles.less */
   #colophon-background #copyright {
     padding-left: 15px;
     display: none;
   }
-  /* line 1492, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1491, http://localhost:8080/Plone/++theme++test/styles.less */
   #colophon-background #partners {
     text-align: center;
   }
-  /* line 1495, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1494, http://localhost:8080/Plone/++theme++test/styles.less */
   #colophon-background #unm-logo-colophon,
   #colophon-background #broadway-logo-colophon {
     width: 50%;
@@ -7409,7 +7409,11 @@ have a fixed width and height (but it's not required).
     background-position: center;
   }
   /* Homepage */
-  /* line 1503, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1502, http://localhost:8080/Plone/++theme++test/styles.less */
+  .template-homepage_view .performance .tileFooter {
+    margin-top: 0;
+  }
+  /* line 1505, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance {
     float: none;
     text-align: center;
@@ -7417,23 +7421,23 @@ have a fixed width and height (but it's not required).
     background-color: white;
     padding-bottom: 20px;
   }
-  /* line 1510, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1512, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance h3 {
     min-height: auto;
   }
-  /* line 1513, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1515, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance:nth-child(n+3) {
     display: none;
   }
-  /* line 1516, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1518, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .performance .tileFooter a {
     padding: 5px 25px;
   }
-  /* line 1519, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1521, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #view-full-season {
     display: none;
   }
-  /* line 1522, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1524, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #upcoming-shows-header,
   .template-homepage_view .portletStaticText h1 {
     background-color: #929295;
@@ -7446,62 +7450,62 @@ have a fixed width and height (but it's not required).
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 1535, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1537, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText h1 {
     /*margin: 0px -15px 25px -15px;*/
   }
-  /* line 1538, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1540, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #homepage-this-season {
     border-width: 0;
   }
-  /* line 1541, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1543, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #content {
     margin-top: 0;
   }
-  /* line 1544, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1546, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText h1,
   .template-homepage_view .portletStaticText ul {
     display: block;
   }
-  /* line 1549, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1551, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText ul {
     margin-bottom: 20px;
     padding-left: 20px;
   }
-  /* line 1553, http://localhost:8080/Plone/++theme++test/styles.less */
-  .template-homepage_view .portletStaticText li {
+  /* line 1555, http://localhost:8080/Plone/++theme++test/styles.less */
+  .template-homepage_view .portletStaticText ul li {
     padding-left: 8px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 14px;
   }
-  /* line 1559, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1561, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText ul a {
     background-color: transparent;
     color: black;
     font-size: 20px;
     font-weight: 400;
   }
-  /* line 1565, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1567, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view .portletStaticText p a {
     text-align: center;
   }
-  /* line 1568, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1570, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-homepage_view #portal-column-two {
     margin: 0px 15px;
   }
-  /* line 1571, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1573, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar a.viewFullCalendar {
     font-size: 17px;
     text-align: left;
   }
-  /* line 1575, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1577, http://localhost:8080/Plone/++theme++test/styles.less */
   .portlet.portletCalendar table td,
   .portlet.portletCalendar table th {
     font-size: 18px;
   }
   /* Season */
-  /* line 1581, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1583, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .showListing .tileItem {
     float: none;
     text-align: center;
@@ -7509,7 +7513,7 @@ have a fixed width and height (but it's not required).
     background-color: white;
     padding-bottom: 10px;
   }
-  /* line 1588, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1590, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view h1.currentSeasonTitle,
   .template-season_view #past-season h1,
   .template-season_view #past-shows h1 {
@@ -7520,29 +7524,35 @@ have a fixed width and height (but it's not required).
     padding: 10px;
     margin: 3px -45px 25px -45px;
   }
-  /* line 1599, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1601, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view #title-popejoy {
     margin-bottom: 0;
   }
-  /* line 1602, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1604, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view #main-container,
   .template-homepage_view #main-container {
     background-color: #e2e2e3;
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 1609, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1611, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem h2,
   .template-season_view .tileItem p {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 1615, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1617, http://localhost:8080/Plone/++theme++test/styles.less */
   .template-season_view .tileItem h2 {
     min-height: auto;
   }
+  /* line 1620, http://localhost:8080/Plone/++theme++test/styles.less */
+  .template-season_view .tileFooter {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
   /* Show */
-  /* line 1619, http://localhost:8080/Plone/++theme++test/styles.less */
+  /* line 1626, http://localhost:8080/Plone/++theme++test/styles.less */
   .starburstWrapper {
     float: none;
     padding-left: 0;

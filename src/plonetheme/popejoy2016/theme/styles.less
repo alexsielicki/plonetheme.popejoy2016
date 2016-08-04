@@ -859,7 +859,7 @@ have a fixed width and height (but it's not required).
 	/*#content {
 		padding-right: 20px;
 	}*/
-	#content #content-core li {
+	#content #content-core ul li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -914,7 +914,6 @@ have a fixed width and height (but it's not required).
 		height: auto;
 	}
 	#footer-background #newsletter-signup {
-		width: 205px;
 		font-size: 14px;
 		line-height: 18px;
 	}
@@ -1022,7 +1021,7 @@ have a fixed width and height (but it's not required).
 	/*#content {
 		padding-right: 30px;
 	}*/
-	#content #content-core li {
+	#content #content-core ul li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -1077,7 +1076,6 @@ have a fixed width and height (but it's not required).
 		width: 28px;
 		}
 	#footer-background #newsletter-signup {
-		width: 240px;
 		font-size: 14px;
 		line-height: 18px;
 	}
@@ -1185,7 +1183,7 @@ have a fixed width and height (but it's not required).
 	/*	#content {
 		padding-right: 54px;
 	}*/
-	#content #content-core li {
+	#content #content-core ul li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -1240,7 +1238,6 @@ have a fixed width and height (but it's not required).
 		width: 32px;
 		}
 	#footer-background #newsletter-signup {
-		width: 285px;
 		font-size: 14px;
 		line-height: 18px;
 	}
@@ -1290,6 +1287,9 @@ have a fixed width and height (but it's not required).
 
 /* Mobile */
 @media (max-width: 767px) {
+	h2 {
+		font-size: 19px;
+	}
 	#portal-logo img, 
 	#portal-searchbox, 
 	#contact-popejoy,
@@ -1382,7 +1382,7 @@ have a fixed width and height (but it's not required).
 		font-size: 20px;
 		line-height: 24px;
 	}
-	#content #content-core li {
+	#content #content-core ul li {
 		padding-left: 16px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -1412,7 +1412,7 @@ have a fixed width and height (but it's not required).
 		float: none;
 		margin: 0 0 20px 0;
 		padding: 0 10px 12px 15px;
-		width: 100%;
+		width: 245px;
 		max-width: 325px;
 		font-size: 13px;
 		line-height: 16px;
@@ -1424,8 +1424,7 @@ have a fixed width and height (but it's not required).
 	{
 		float: none;
 		margin: 0;
-		width: 100%;
-		max-width: 350px;
+		width: 245px;
 		margin: 0 -10px 10px -15px;
 	}
 	
@@ -1499,6 +1498,9 @@ have a fixed width and height (but it's not required).
 		background-position: center;
 	}
 	/* Homepage */
+	.template-homepage_view .performance .tileFooter {
+		margin-top: 0;
+	}
 	.template-homepage_view .performance {
 		float: none;
 		text-align: center;
@@ -1549,7 +1551,7 @@ have a fixed width and height (but it's not required).
 		margin-bottom: 20px;
 		padding-left: 20px;
 	}
-	.template-homepage_view .portletStaticText li {
+	.template-homepage_view .portletStaticText ul li {
 		padding-left: 8px;
 		background-image: url(bullet.gif);
 		background-repeat: no-repeat;
@@ -1613,6 +1615,11 @@ have a fixed width and height (but it's not required).
 	}
 	.template-season_view .tileItem h2 {
 		min-height: auto;
+	}
+	.template-season_view .tileFooter {
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 	/* Show */
 	.starburstWrapper {
