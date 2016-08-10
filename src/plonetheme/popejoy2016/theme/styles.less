@@ -942,8 +942,57 @@ have a fixed width and height (but it's not required).
 	.template-season_view .tileItem .tileFooter a {
 		font-size: 11px;
 	}
+	aside#portal-column-two {
+		margin-right: 10px;
+	}
+	.portlet.portletCalendar a.viewFullCalendar {
+		font-size: 10px;
+	}
+	.portlet.portletCalendar .portletHeader {
+		font-size: 12px;
+	}
+	.portlet.portletCalendar .portletHeader .calendarPrevious, 
+	.portlet.portletCalendar .portletHeader .calendarNext
+	{
+		font-size: 19px;
+		width: 20px;
+		height: 20px;
+	}
+	.portlet.portletCalendar table thead th {
+		font-size: 12px;
+	}
+	.ploneCalendar td {
+		padding: 0px;
+	}
+	.portlet.portletCalendar table td > * {
+		height: 21px;
+		line-height: 21px;
+	}
 }
 @media (min-width: @plone-screen-md-min) {
+	aside#portal-column-two {
+		margin-right: 20px;
+	}
+	.portlet.portletCalendar .portletHeader {
+		font-size: 20px;
+	}
+	.portlet.portletCalendar .portletHeader .calendarPrevious, 
+	.portlet.portletCalendar .portletHeader .calendarNext
+	{
+		font-size: 24px;
+		width: 20px;
+		height: 30px;
+	}
+	.portlet.portletCalendar table thead th {
+		font-size: 16px;
+	}
+	.ploneCalendar td {
+		padding: 2px;
+	}
+	.portlet.portletCalendar table td > * {
+		height: 27px;
+		line-height: 27px;
+	}
 	#carousel,
 	#carousel img
 	{
@@ -1101,6 +1150,9 @@ have a fixed width and height (but it's not required).
 		margin-right: 20px;
 	}
 	.template-season_view .tileItem .tileFooter a {
+		font-size: 14px;
+	}
+	.portlet.portletCalendar a.viewFullCalendar {
 		font-size: 14px;
 	}
 }
