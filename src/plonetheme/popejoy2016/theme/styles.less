@@ -469,7 +469,7 @@ Position must be relative!
     position: relative;
     overflow: hidden;
     width: 1240px;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 /*
@@ -520,7 +520,7 @@ have a fixed width and height (but it's not required).
 	width: 166px;
 	text-align: center;
 	font-weight: 600;
-	margin-left: 100px;
+	margin-left: 50px;
 }
 #carousel .titleText {
 	padding-left: 20px;
@@ -608,6 +608,13 @@ have a fixed width and height (but it's not required).
 	font-weight: 500;
 	padding: 5px 10px;
 	line-height: 25px;
+}
+.template-homepage_view #homepage-body-text {
+	font-size: 160%;
+	font-weight: 200;
+}
+.template-homepage_view #homepage-body-text .learnMore {
+	font-size: 75%;
 }
 
 /* Season */
@@ -768,13 +775,16 @@ have a fixed width and height (but it's not required).
 
 /* No Toolbar Breakpoints */
 @media (min-width: @plone-screen-sm-min) {
+	.template-homepage_view #homepage-body-text {
+		font-size: 100%;
+	}
 	#carousel,
 	#carousel img
 	{
 		width: 792px;
 	}
 	#carousel {
-		margin-left: -72px;
+		margin-left: -36px;
 	}
 	#carousel .title {
 		font-size: 15px;
@@ -782,7 +792,7 @@ have a fixed width and height (but it's not required).
 		line-height: 40px;
 	}
 	#carousel .buttonText {
-		margin-left: 72px;
+		margin-left: 36px;
 		width: 120px;
 	}
 
@@ -960,6 +970,9 @@ have a fixed width and height (but it's not required).
 	}
 }
 @media (min-width: @plone-screen-md-min) {
+	.template-homepage_view #homepage-body-text {
+		font-size: 133%;
+	}
 	.portlet.portletCalendar .portletHeader {
 		font-size: 20px;
 	}
@@ -986,7 +999,7 @@ have a fixed width and height (but it's not required).
 		width: 1024px;
 	}
 	#carousel {
-		margin-left: -84px;
+		margin-left: -42px;
 	}
 	#carousel .title {
 		font-size: 18px;
@@ -994,7 +1007,7 @@ have a fixed width and height (but it's not required).
 		line-height: 45px;
 	}
 	#carousel .buttonText {
-		margin-left: 84px;
+		margin-left: 42px;
 		width: 140px;
 	}
 
@@ -1145,13 +1158,16 @@ have a fixed width and height (but it's not required).
 	}
 }
 @media (min-width: @plone-screen-lg-min) {
+	.template-homepage_view #homepage-body-text {
+		font-size: 160%;
+	}
 	#carousel,
 	#carousel img
 	{
 		width: 1240px;
 	}
 	#carousel {
-		margin-left: -100px;
+		margin-left: -50px;
 	}
 	#carousel .title {
 		font-size: 22px;
@@ -1159,7 +1175,7 @@ have a fixed width and height (but it's not required).
 		line-height: 55px;
 	}
 	#carousel .buttonText {
-		margin-left: 100px;
+		margin-left: 50px;
 		width: 166px;
 	}
 
