@@ -135,7 +135,6 @@ a:focus
 	margin-bottom: 0;
 	box-shadow: none;
 	border: none;
-	background-color: transparent;
 }
 .plone-nav > li > a {
 	padding: 15px 19px;
@@ -518,7 +517,7 @@ have a fixed width and height (but it's not required).
 #carousel .buttonText {
 	text-transform: uppercase;
 	background-color: @cyan;
-	width: 193px;
+	width: 166px;
 	text-align: center;
 	font-weight: 600;
 	margin-left: 100px;
@@ -766,14 +765,6 @@ have a fixed width and height (but it's not required).
   clear: both;
   margin: 0.5em;
 }
-.plone-navbar-nav {
-	float: right;
-	background-color: @gray;
-	margin: 0 -15px 0 0;
-}
-.plone-navbar-nav > li {
-	float: right;
-}
 
 /* No Toolbar Breakpoints */
 @media (min-width: @plone-screen-sm-min) {
@@ -792,10 +783,11 @@ have a fixed width and height (but it's not required).
 	}
 	#carousel .buttonText {
 		margin-left: 72px;
-		width: 121px;
+		width: 120px;
 	}
+
 	#portal-logo img {
-		width: 121px;
+		width: 120px;
 	}
 	#portal-header {
 		margin-right: -20px;
@@ -829,11 +821,12 @@ have a fixed width and height (but it's not required).
 	}
 	/* primary nav */
 	#mainnavigation-wrapper {
-		margin-top: -52px;
+		margin-top: -54px;
 	}
 	.plone-navbar {
 		max-height: 40px;
 		min-height: 40px;
+		background-color: #6d6e71;
 	}
 	.plone-navbar-header {
 		padding: 0;
@@ -842,7 +835,7 @@ have a fixed width and height (but it's not required).
 		padding: 0 15px 0 15px;
 	}
 	.plone-navbar-nav {
-		width: 792px;
+		float: right;
 	}
 	.plone-nav > li > a {
 		padding: 11px 10px 0 10px;
@@ -1008,11 +1001,11 @@ have a fixed width and height (but it's not required).
 	}
 	#carousel .buttonText {
 		margin-left: 84px;
-		width: 159px;
+		width: 140px;
 	}
 
 	#portal-logo img {
-		width: 159px;
+		width: 140px;
 	}
 	#portal-header {
 		max-height: 172px;
@@ -1039,11 +1032,12 @@ have a fixed width and height (but it's not required).
 	}
 	/* primary nav */
 	#mainnavigation-wrapper {
-		margin-top: -46px;
+		margin-top: -60px;
 	}
 	.plone-navbar {
 		min-height: 45px;
 		max-height: 45px;
+		background-color: #6d6e71;
 	}
 	.plone-navbar-header {
 		padding: 0;
@@ -1052,7 +1046,7 @@ have a fixed width and height (but it's not required).
 		padding: 0 15px 0 15px;
 	}
 	.plone-navbar-nav {
-		width: 1024px;
+		float: right;
 	}
 	.plone-nav > li > a {
 		padding: 13px 18px 0 18px;
@@ -1172,11 +1166,11 @@ have a fixed width and height (but it's not required).
 	}
 	#carousel .buttonText {
 		margin-left: 100px;
-		width: 193px;
+		width: 166px;
 	}
 
 	#portal-logo img {
-		width: 193px;
+		width: 166px;
 	}
 	#portal-header {
 		max-height: 204px;
@@ -1203,11 +1197,12 @@ have a fixed width and height (but it's not required).
 	}
 	/* primary nav */
 	#mainnavigation-wrapper {
-		margin-top: -51px;
+		margin-top: -74px;
 	}
 	.plone-navbar {
 		max-height: 55px;
 		min-height: 55px;
+		background-color: #6d6e71;
 	}
 	.plone-navbar-header {
 		padding: 0;
@@ -1216,7 +1211,7 @@ have a fixed width and height (but it's not required).
 		padding: 0 15px 0 15px;
 	}
 	.plone-navbar-nav {
-		width: 1240px;
+		float: right;
 	}
 	.plone-nav > li > a {
 		padding: 18px 24px 0 24px;
@@ -1383,11 +1378,8 @@ have a fixed width and height (but it's not required).
 	}
 	.plone-navbar-nav {
 		float: none;
+		margin-top: 10px;
 		text-align: center;
-		margin: 10px -15px -1px;
-	}
-	.plone-navbar-nav > li {
-		float: none;
 	}
 	.plone-nav > li > a {
 		padding: 13px 10px 0 10px;
