@@ -6300,7 +6300,7 @@ have a fixed width and height (but it's not required).
 #carousel .buttonText {
   text-transform: uppercase;
   background-color: #48b7ae;
-  width: 166px;
+  width: 193px;
   text-align: center;
   font-weight: 600;
   margin-left: 50px;
@@ -6617,11 +6617,11 @@ have a fixed width and height (but it's not required).
   /* line 795, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel .buttonText {
     margin-left: 36px;
-    width: 120px;
+    width: 121px;
   }
   /* line 800, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
-    width: 120px;
+    width: 121px;
   }
   /* line 803, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
@@ -6662,7 +6662,7 @@ have a fixed width and height (but it's not required).
   /* primary nav */
   /* line 834, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
-    margin-top: -54px;
+    margin-top: -52px;
   }
   /* line 837, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
@@ -6870,11 +6870,11 @@ have a fixed width and height (but it's not required).
   /* line 1010, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel .buttonText {
     margin-left: 42px;
-    width: 140px;
+    width: 159px;
   }
   /* line 1015, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
-    width: 140px;
+    width: 159px;
   }
   /* line 1018, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
@@ -6907,7 +6907,7 @@ have a fixed width and height (but it's not required).
   /* primary nav */
   /* line 1042, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
-    margin-top: -60px;
+    margin-top: -46px;
   }
   /* line 1045, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
@@ -7067,11 +7067,11 @@ have a fixed width and height (but it's not required).
   /* line 1178, http://localhost:8080/Plone/++theme++test/styles.less */
   #carousel .buttonText {
     margin-left: 50px;
-    width: 166px;
+    width: 193px;
   }
   /* line 1183, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-logo img {
-    width: 166px;
+    width: 193px;
   }
   /* line 1186, http://localhost:8080/Plone/++theme++test/styles.less */
   #portal-header {
@@ -7104,7 +7104,7 @@ have a fixed width and height (but it's not required).
   /* primary nav */
   /* line 1210, http://localhost:8080/Plone/++theme++test/styles.less */
   #mainnavigation-wrapper {
-    margin-top: -74px;
+    margin-top: -51px;
   }
   /* line 1213, http://localhost:8080/Plone/++theme++test/styles.less */
   .plone-navbar {
