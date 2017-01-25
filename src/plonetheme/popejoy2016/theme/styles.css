@@ -6541,8 +6541,7 @@ have a fixed width and height (but it's not required).
 }
 /* line 727, http://admin.popejoy:8080/Plone/++theme++test/styles.less */
 .performanceStart.soldOutDate {
-  text-decoration: line-through;
-  color: #cccccc;
+  color: #5f5f5f;
 }
 /* line 731, http://admin.popejoy:8080/Plone/++theme++test/styles.less */
 .performance-dates-wrapper .soldOut,
