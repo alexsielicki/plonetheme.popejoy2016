@@ -859,6 +859,7 @@ have a fixed width and height (but it's not required).
 }
 .template-ftwcalendar_view #calendar .fc-content th {
 	border-width: 0px 0px 1px 0px;
+	color: @gray-dark-text;
 }
 .template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-day-number {
 	float: left;
@@ -867,18 +868,28 @@ have a fixed width and height (but it's not required).
 	width: 25px;
 	text-align: center;
 	position: absolute;
+	color: @black-text;
 }
 .template-ftwcalendar_view #calendar .fc-content td {
 	border-width: 1px 0px 0px 0px;
 }
-.template-ftwcalendar_view .fc-event, 
-.template-ftwcalendar_view .fc-agenda 
-.template-ftwcalendar_view .fc-event-time, 
+.template-ftwcalendar_view .fc-event,
+.template-ftwcalendar_view .fc-agenda,
+.template-ftwcalendar_view .fc-event-time,
 .template-ftwcalendar_view .fc-event a
 {
 	background-color: transparent;
 	border-color: transparent;
 	color: @cyan-text;
+}
+.template-ftwcalendar_view .fc-event.portal_type_Event a {
+	color: @gray-dark-text;
+}
+.template-ftwcalendar_view .fc-event.portal_type_Performance a::before {
+	content: "Popejoy Presents";
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
 }
 .template-ftwcalendar_view #calendar .fc-content .fc-state-highlight {
 	background-color: transparent;
@@ -888,11 +899,21 @@ have a fixed width and height (but it's not required).
 	background-color: @gray-nav;
 	border-color: @gray-nav;
 }
-.template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-time {
+.template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-time,
+.template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-title
+{
 	display: block;
 }
+.template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-time {
+	font-weight: normal;
+	color: @black-text;
+}
+.template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-title {
+	font-weight: bold;
+	font-size: 15px;
+}
 .template-ftwcalendar_view #calendar .fc-content .fc-corner-right a {
-	padding-left: 27px;
+	padding: 0px 5px 10px 27px;
 }
 
 /* No Toolbar Breakpoints */
