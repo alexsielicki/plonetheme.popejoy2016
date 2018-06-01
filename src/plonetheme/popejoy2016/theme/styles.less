@@ -784,6 +784,81 @@ have a fixed width and height (but it's not required).
 	display: block !important;
 }
 
+/* Calendar */
+/* Header */
+.template-ftwcalendar_view #calendar .fc-header,
+.template-ftwcalendar_view #calendar .fc-header table,
+.template-ftwcalendar_view #calendar .fc-header td,
+.template-ftwcalendar_view #calendar .fc-header .fc-header-title
+{
+	border-width: 0px;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-header-title
+{
+	color: @black-text;
+	text-transform: none;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-today,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-month,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-agendaWeek,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-agendaDay
+{
+	display: none;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev a,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next a,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev a span,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next a span
+{
+	border-width: 0px;
+	background-color: transparent;
+	border-color: transparent;
+	color: @cyan-text;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next
+{
+	position: absolute;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev {
+	left: 13px;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next {
+	right: 13px;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev span,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next span
+{
+	visibility: hidden;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev span::before,
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next span::after 
+{
+	visibility: visible;
+	font-size: 24px;
+	line-height: 17px;
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-prev span::before {
+	content: "«";
+}
+.template-ftwcalendar_view #calendar .fc-header .fc-button-next span::after {
+	content: "»";
+}
+/* Content Cells */
+.template-ftwcalendar_view #calendar .fc-content {
+
+}
+.template-ftwcalendar_view .fc-event, 
+.template-ftwcalendar_view .fc-agenda 
+.template-ftwcalendar_view .fc-event-time, 
+.template-ftwcalendar_view .fc-event a
+{
+	background-color: @cyan;
+	border-color: @cyan;
+}
+
 /* No Toolbar Breakpoints */
 @media (min-width: @plone-screen-sm-min) {
 	.template-homepage_view #homepage-body-text {
