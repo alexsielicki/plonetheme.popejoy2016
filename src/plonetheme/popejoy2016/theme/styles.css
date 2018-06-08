@@ -6613,25 +6613,30 @@ have a fixed width and height (but it's not required).
 }
 /* Header */
 /* line 793, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+.template-ftwcalendar_view #calendar .fc-header {
+  margin-bottom: 15px;
+}
+/* line 796, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header,
 .template-ftwcalendar_view #calendar .fc-header table,
 .template-ftwcalendar_view #calendar .fc-header td,
 .template-ftwcalendar_view #calendar .fc-header .fc-header-title {
   border-width: 0px;
 }
-/* line 800, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 803, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-header-title {
   color: #000000;
   text-transform: none;
+  font-size: 27px;
 }
-/* line 805, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 809, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-today,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-month,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-agendaWeek,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-agendaDay {
   display: none;
 }
-/* line 812, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 816, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-prev,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-next,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-prev a,
@@ -6643,56 +6648,58 @@ have a fixed width and height (but it's not required).
   border-color: transparent;
   color: #3d9a92;
 }
-/* line 824, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 828, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-prev,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-next {
   position: absolute;
 }
-/* line 829, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 833, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-prev {
   left: 13px;
 }
-/* line 832, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 836, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-next {
   right: 13px;
 }
-/* line 835, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 839, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-prev span,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-next span {
   visibility: hidden;
 }
-/* line 840, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 844, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-prev span::before,
 .template-ftwcalendar_view #calendar .fc-header .fc-button-next span::after {
   visibility: visible;
-  font-size: 24px;
+  font-size: 50px;
   line-height: 17px;
 }
-/* line 847, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 851, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-prev span::before {
   content: "«";
 }
-/* line 850, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 854, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-header .fc-button-next span::after {
   content: "»";
 }
 /* Content Cells */
-/* line 854, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 858, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content,
 .template-ftwcalendar_view #calendar .fc-content table {
   border-width: 0px;
   border-color: #cccccc;
 }
-/* line 860, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 864, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content table {
   border-top-width: 1px;
 }
-/* line 864, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 868, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content th {
   border-width: 0px 0px 1px 0px;
-  color: #5f5f5f;
+  color: #6D6E71;
+  font-size: 20px;
+  line-height: 34px;
 }
-/* line 868, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 874, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-day-number {
   float: left;
   border: 1px solid #cccccc;
@@ -6706,29 +6713,29 @@ have a fixed width and height (but it's not required).
   z-index: 10;
   background-color: white;
 }
-/* line 881, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 887, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content td {
   border-width: 1px 0px 0px 0px;
 }
-/* line 887, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 893, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view .fc-event {
   margin: -2px -2px 0px -2px;
 }
-/* line 890, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 896, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view .fc-event:hover {
   background-color: #48b7ae;
 }
-/* line 893, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 899, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view .fc-event.portal_type_Event:hover {
   background-color: #6d6e71;
 }
-/* line 896, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 902, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view .fc-event a:hover,
 .template-ftwcalendar_view #calendar .fc-event a:hover .fc-event-time,
 .template-ftwcalendar_view #calendar .fc-event a:hover .fc-event-title {
   color: #ffffff !important;
 }
-/* line 902, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 908, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view .fc-event,
 .template-ftwcalendar_view .fc-agenda,
 .template-ftwcalendar_view .fc-event-time,
@@ -6738,152 +6745,152 @@ have a fixed width and height (but it's not required).
   color: #3d9a92;
   text-decoration: none;
 }
-/* line 912, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 918, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view .fc-event.portal_type_Event a {
   color: #5f5f5f;
 }
-/* line 915, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 921, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view .fc-event.portal_type_Performance a::before {
   content: "Popejoy Presents";
   text-transform: uppercase;
   font-size: 11px;
   font-weight: bold;
 }
-/* line 921, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 927, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content .fc-state-highlight {
   background-color: transparent;
 }
-/* line 924, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 930, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content .fc-state-highlight .fc-day-number {
   color: #ffffff;
   background-color: #b6b6b8;
   border-color: #b6b6b8;
 }
-/* line 929, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 935, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-time,
 .template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-title {
   display: block;
 }
-/* line 934, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 940, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-time {
   font-weight: normal;
   color: #000000;
 }
-/* line 938, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 944, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content .fc-grid .fc-event-title {
   font-weight: bold;
   font-size: 15px;
 }
-/* line 942, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+/* line 948, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
 .template-ftwcalendar_view #calendar .fc-content .fc-corner-right a {
   padding: 5px 5px 10px 42px;
 }
 /* No Toolbar Breakpoints */
 @media (min-width: 768px) {
-  /* line 948, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 954, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #homepage-body-text {
     font-size: 100%;
   }
-  /* line 951, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 957, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel,
   #carousel img {
     width: 792px;
   }
-  /* line 956, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 962, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel {
     margin-left: -36px;
   }
-  /* line 959, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 965, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel .title {
     font-size: 15px;
     height: 40px;
     line-height: 40px;
   }
-  /* line 964, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 970, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel .buttonText {
     margin-left: 36px;
     width: 121px;
   }
-  /* line 969, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 975, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-logo img {
     width: 121px;
   }
-  /* line 972, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 978, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-header {
     margin-right: -20px;
     max-height: 148px;
     min-height: 148px;
   }
-  /* line 977, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 983, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-searchbox {
     margin-right: 20px;
     margin-left: 10px;
     padding: 8px 15px;
     width: 210px;
   }
-  /* line 983, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 989, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 988, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 994, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-searchbox [type="text"] {
     float: none;
     width: 120px;
     display: inline-block;
   }
-  /* line 993, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 999, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #searchGadget_form #searchGadget {
     margin-left: -64px;
     height: 28px;
     width: 132px;
   }
-  /* line 998, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1004, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 12px 0;
   }
   /* primary nav */
-  /* line 1003, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1009, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #mainnavigation-wrapper {
     margin-top: -52px;
   }
-  /* line 1006, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1012, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar {
     max-height: 40px;
     min-height: 40px;
     background-color: #6d6e71;
   }
-  /* line 1011, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1017, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 1014, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1020, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 1017, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1023, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 1020, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1026, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-nav > li > a {
     padding: 11px 10px 0 10px;
     font-size: 15px;
     height: 40px;
   }
   /* page content */
-  /* line 1026, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1032, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy {
     height: 66px;
   }
-  /* line 1029, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1035, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 34px;
     font-size: 24px;
   }
-  /* line 1033, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1039, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -6893,24 +6900,24 @@ have a fixed width and height (but it's not required).
   /*#content {
     padding-right: 20px;
   }*/
-  /* line 1042, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1048, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1048, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1054, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content-core p {
     font-size: 16px;
     line-height: 22px;
   }
-  /* line 1052, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1058, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 1056, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1062, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -6919,7 +6926,7 @@ have a fixed width and height (but it's not required).
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1066, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1072, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote p img.image-inline,
   .pullquote img {
     float: none;
@@ -6929,206 +6936,206 @@ have a fixed width and height (but it's not required).
     margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1076, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1082, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .navTreeItem {
     font-size: 14px;
   }
   /* footer content */
-  /* line 1080, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1086, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section {
     width: 121px;
     margin-right: 16px;
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 1086, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1092, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section.mission {
     width: 395px;
     margin-right: 140px;
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 1092, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1098, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #social-icons img {
     width: 23px;
     height: auto;
   }
-  /* line 1096, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1102, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #newsletter-signup {
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 1101, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1107, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance {
     margin-right: 16px;
     width: 121px;
   }
-  /* line 1105, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1111, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 10px;
   }
   /* Season */
-  /* line 1111, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1117, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem {
     width: 121px;
     margin-right: 16px;
   }
-  /* line 1115, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1121, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 11px;
   }
-  /* line 1118, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1124, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar a.viewFullCalendar {
     font-size: 10px;
   }
-  /* line 1121, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1127, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar .portletHeader {
     font-size: 12px;
   }
-  /* line 1124, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1130, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar .portletHeader .calendarPrevious,
   .portlet.portletCalendar .portletHeader .calendarNext {
     font-size: 19px;
     width: 20px;
     height: 20px;
   }
-  /* line 1131, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1137, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar table thead th {
     font-size: 12px;
   }
-  /* line 1134, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1140, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .ploneCalendar td {
     padding: 0px;
   }
-  /* line 1137, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1143, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar table td > * {
     height: 21px;
     line-height: 21px;
   }
 }
 @media (min-width: 992px) {
-  /* line 1143, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1149, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #homepage-body-text {
     font-size: 133%;
   }
-  /* line 1146, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1152, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar .portletHeader {
     font-size: 20px;
   }
-  /* line 1149, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1155, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar .portletHeader .calendarPrevious,
   .portlet.portletCalendar .portletHeader .calendarNext {
     font-size: 24px;
     width: 20px;
     height: 30px;
   }
-  /* line 1156, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1162, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar table thead th {
     font-size: 16px;
   }
-  /* line 1159, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1165, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .ploneCalendar td {
     padding: 2px;
   }
-  /* line 1162, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1168, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar table td > * {
     height: 27px;
     line-height: 27px;
   }
-  /* line 1166, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1172, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel,
   #carousel img {
     width: 1024px;
   }
-  /* line 1171, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1177, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel {
     margin-left: -42px;
   }
-  /* line 1174, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1180, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel .title {
     font-size: 18px;
     height: 45px;
     line-height: 45px;
   }
-  /* line 1179, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1185, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel .buttonText {
     margin-left: 42px;
     width: 159px;
   }
-  /* line 1184, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1190, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-logo img {
     width: 159px;
   }
-  /* line 1187, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1193, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-header {
     max-height: 172px;
     min-height: 172px;
   }
-  /* line 1191, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1197, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 8px 10px;
     width: 240px;
   }
-  /* line 1196, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1202, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 1201, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1207, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #searchGadget_form #searchGadget {
     width: 100px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 1206, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1212, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 11px 0;
   }
   /* primary nav */
-  /* line 1211, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1217, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #mainnavigation-wrapper {
     margin-top: -46px;
   }
-  /* line 1214, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1220, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar {
     min-height: 45px;
     max-height: 45px;
     background-color: #6d6e71;
   }
-  /* line 1219, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1225, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 1222, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1228, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 1225, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1231, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 1228, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1234, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-nav > li > a {
     padding: 13px 18px 0 18px;
     font-size: 18px;
     height: 45px;
   }
   /* page content */
-  /* line 1234, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1240, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 1237, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1243, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 1241, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1247, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -7138,24 +7145,24 @@ have a fixed width and height (but it's not required).
   /*#content {
     padding-right: 30px;
   }*/
-  /* line 1250, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1256, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1256, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1262, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 1260, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1266, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 1264, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1270, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -7164,7 +7171,7 @@ have a fixed width and height (but it's not required).
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1274, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1280, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote p img.image-inline,
   .pullquote img {
     float: none;
@@ -7173,159 +7180,159 @@ have a fixed width and height (but it's not required).
     margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1283, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1289, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .navTreeItem {
     font-size: 16px;
   }
   /* footer content */
-  /* line 1287, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1293, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section.mission,
   #footer-background .section {
     width: 159px;
     margin-right: 20px;
   }
-  /* line 1293, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1299, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 1297, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1303, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section.mission {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 1301, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1307, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #social-icons img {
     width: 28px;
   }
-  /* line 1304, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1310, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #newsletter-signup {
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 1309, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1315, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance {
     margin-right: 20px;
     width: 159px;
   }
-  /* line 1313, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1319, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 14px;
   }
   /* Season */
-  /* line 1319, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1325, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem {
     width: 159px;
     margin-right: 20px;
   }
-  /* line 1323, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1329, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 14px;
   }
-  /* line 1326, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1332, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar a.viewFullCalendar {
     font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 1331, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1337, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #homepage-body-text {
     font-size: 160%;
   }
-  /* line 1334, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1340, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel,
   #carousel img {
     width: 1240px;
   }
-  /* line 1339, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1345, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel {
     margin-left: -50px;
   }
-  /* line 1342, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1348, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel .title {
     font-size: 22px;
     height: 55px;
     line-height: 55px;
   }
-  /* line 1347, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1353, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #carousel .buttonText {
     margin-left: 50px;
     width: 193px;
   }
-  /* line 1352, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1358, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-logo img {
     width: 193px;
   }
-  /* line 1355, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1361, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-header {
     max-height: 204px;
     min-height: 204px;
   }
-  /* line 1359, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1365, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-searchbox {
     margin-left: 10px;
     padding: 12px 15px;
     width: 265px;
   }
-  /* line 1364, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1370, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-searchbox label {
     font-size: 14px;
     margin-right: 4px;
     margin-bottom: 0;
   }
-  /* line 1369, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1375, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #searchGadget_form #searchGadget {
     width: 120px;
     height: 25px;
     margin-left: 0;
   }
-  /* line 1374, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1380, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #contact-popejoy {
     font-size: 14px;
     padding: 15px 0;
   }
   /* primary nav */
-  /* line 1379, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1385, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #mainnavigation-wrapper {
     margin-top: -51px;
   }
-  /* line 1382, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1388, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar {
     max-height: 55px;
     min-height: 55px;
     background-color: #6d6e71;
   }
-  /* line 1387, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1393, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-header {
     padding: 0;
   }
-  /* line 1390, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1396, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar .container {
     padding: 0 15px 0 15px;
   }
-  /* line 1393, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1399, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-nav {
     float: right;
   }
-  /* line 1396, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1402, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-nav > li > a {
     padding: 18px 24px 0 24px;
     font-size: 22px;
     height: 55px;
   }
   /* page content */
-  /* line 1402, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1408, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy {
     height: 74px;
   }
-  /* line 1405, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1411, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 36px;
     font-size: 27px;
   }
-  /* line 1409, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1415, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 20px;
@@ -7335,24 +7342,24 @@ have a fixed width and height (but it's not required).
   /*  #content {
     padding-right: 54px;
   }*/
-  /* line 1418, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1424, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1424, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1430, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 24px;
   }
-  /* line 1428, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1434, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   h3 {
     font-size: 20px;
   }
   /* inline image and caption */
-  /* line 1432, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1438, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote {
     float: right;
     margin: 0 0 20px 24px;
@@ -7361,7 +7368,7 @@ have a fixed width and height (but it's not required).
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1442, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1448, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote p img.image-inline,
   .pullquote img {
     float: none;
@@ -7370,54 +7377,54 @@ have a fixed width and height (but it's not required).
     margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1451, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1457, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .navTreeItem {
     font-size: 16px;
   }
   /* footer content */
-  /* line 1455, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1461, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section.mission,
   #footer-background .section {
     width: 193px;
     margin-right: 25px;
   }
-  /* line 1461, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1467, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section {
     font-size: 14px;
     line-height: 18px;
   }
-  /* line 1465, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1471, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section.mission {
     font-size: 16px;
     line-height: 21px;
   }
-  /* line 1469, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1475, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #social-icons img {
     width: 32px;
   }
-  /* line 1472, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1478, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #newsletter-signup {
     font-size: 14px;
     line-height: 18px;
   }
   /* Homepage */
-  /* line 1477, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1483, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance {
     margin-right: 25px;
     width: 193px;
   }
-  /* line 1481, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1487, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance .tileFooter a,
   .template-homepage_view .portletStaticText a {
     font-size: 16px;
   }
   /* Season */
-  /* line 1487, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1493, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem {
     width: 193px;
     margin-right: 25px;
   }
-  /* line 1491, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1497, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem .tileFooter a {
     font-size: 16px;
   }
@@ -7427,11 +7434,11 @@ have a fixed width and height (but it's not required).
 /* Large with Toolbar Breakpoints */
 /* Mobile */
 @media (max-width: 767px) {
-  /* line 1522, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1528, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   h2 {
     font-size: 19px;
   }
-  /* line 1525, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1531, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-logo img,
   #portal-searchbox,
   #contact-popejoy,
@@ -7439,7 +7446,7 @@ have a fixed width and height (but it's not required).
   #homepage-body-text {
     display: none;
   }
-  /* line 1533, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1539, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-logo {
     display: block;
     position: absolute;
@@ -7451,32 +7458,32 @@ have a fixed width and height (but it's not required).
     z-index: 1;
   }
   /* primary nav */
-  /* line 1544, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1550, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #mainnavigation-wrapper {
     margin-top: -54px;
     margin-bottom: 11px;
   }
-  /* line 1548, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1554, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar {
     max-height: none;
     min-height: initial;
     background-color: transparent;
   }
-  /* line 1553, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1559, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-header {
     padding: 0 15px 0 15px;
   }
-  /* line 1556, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1562, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar .container {
     padding: 0;
   }
-  /* line 1559, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1565, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-nav {
     float: none;
     margin-top: 10px;
     text-align: center;
   }
-  /* line 1564, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1570, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-nav > li > a {
     padding: 13px 10px 0 10px;
     font-size: 18px;
@@ -7484,7 +7491,7 @@ have a fixed width and height (but it's not required).
     background-color: #6d6e71;
     border-bottom: 3px solid #fff;
   }
-  /* line 1571, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1577, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .plone-navbar-toggle {
     font-size: 18px;
     text-shadow: none;
@@ -7501,7 +7508,7 @@ have a fixed width and height (but it's not required).
     font-weight: 400;
   }
   /* structural */
-  /* line 1587, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1593, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .container,
   #edit-zone.plone-toolbar-top .plone-toolbar-container,
   .plone-modal .plone-modal-content,
@@ -7509,49 +7516,49 @@ have a fixed width and height (but it's not required).
   .plone-toolbar-left-default .container {
     width: auto;
   }
-  /* line 1592, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1598, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .col-xs-6 {
     width: 100%;
   }
-  /* line 1595, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1601, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   iframe {
     width: 100%;
   }
-  /* line 1598, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1604, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .row {
     margin: 0;
   }
   /* page content */
-  /* line 1603, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1609, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy {
     height: auto;
   }
-  /* line 1606, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1612, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #title-popejoy .documentFirstHeading {
     margin-top: 34px;
     margin-left: 15px;
     text-align: center;
   }
-  /* line 1611, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1617, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .documentDescription {
     padding-top: 12px;
     padding-bottom: 14px;
     font-size: 20px;
     line-height: 24px;
   }
-  /* line 1617, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1623, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content #content-core ul li {
     padding-left: 16px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 7px;
   }
-  /* line 1623, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1629, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content-core p {
     font-size: 17px;
     line-height: 23px;
   }
-  /* line 1627, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1633, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #content-header .container {
     padding: 0;
     background-color: #48b8af;
@@ -7560,7 +7567,7 @@ have a fixed width and height (but it's not required).
     height: 79px;
     border-bottom: 3px solid #fff;
   }
-  /* line 1635, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1641, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   button {
     background-color: transparent;
     box-shadow: none;
@@ -7568,7 +7575,7 @@ have a fixed width and height (but it's not required).
     border: none;
   }
   /* inline image and caption */
-  /* line 1643, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1649, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote {
     float: none;
     margin: 0 0 20px 0;
@@ -7578,7 +7585,7 @@ have a fixed width and height (but it's not required).
     font-size: 13px;
     line-height: 16px;
   }
-  /* line 1654, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1660, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .pullquote p img.image-inline,
   .pullquote img {
     float: none;
@@ -7587,37 +7594,37 @@ have a fixed width and height (but it's not required).
     margin: 0 -10px 10px -15px;
   }
   /* sidebar portlets */
-  /* line 1664, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1670, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portletNavigationTree,
   .portletCalendar {
     width: 100%;
     /*max-width: 450px;*/
     /*padding-left: 15px;*/
   }
-  /* line 1669, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1675, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portletCalendar .portletContent {
     background-color: transparent;
     border-color: #48b7ae;
   }
-  /* line 1673, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1679, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portletNavigationTree,
   .portletCalendar table {
     background-color: transparent;
   }
-  /* line 1676, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1682, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar table .today > * {
     background-color: #b4d5d3;
   }
-  /* line 1679, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1685, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar table thead {
     border-color: #95ccc8;
   }
   /* footer content */
-  /* line 1684, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1690, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section {
     display: none;
   }
-  /* line 1687, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1693, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section.mission {
     display: block;
     width: auto;
@@ -7628,46 +7635,46 @@ have a fixed width and height (but it's not required).
     line-height: 22px;
     background-color: white;
   }
-  /* line 1697, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1703, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background .section h3 {
     font-size: 16px;
     border-bottom-width: 0;
     margin-top: 0;
   }
-  /* line 1702, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1708, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background p {
     margin-bottom: 0;
   }
-  /* line 1705, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1711, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #social-icons {
     padding: 0 20px 0 13px;
     text-align: center;
   }
-  /* line 1709, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1715, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #social-icons img {
     width: 32px;
   }
-  /* line 1712, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1718, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #footer-background #newsletter-signup {
     padding: 20px 20px 20px 15px;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
   }
-  /* line 1718, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1724, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #portal-colophon {
     padding-bottom: 80px;
   }
-  /* line 1721, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1727, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #colophon-background #copyright {
     padding-left: 15px;
     display: none;
   }
-  /* line 1725, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1731, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #colophon-background #partners {
     text-align: center;
   }
-  /* line 1728, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1734, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   #colophon-background #unm-logo-colophon,
   #colophon-background #broadway-logo-colophon {
     width: 50%;
@@ -7675,11 +7682,11 @@ have a fixed width and height (but it's not required).
     background-position: center;
   }
   /* Homepage */
-  /* line 1736, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1742, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance .tileFooter {
     margin-top: 0;
   }
-  /* line 1739, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1745, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance {
     float: none;
     text-align: center;
@@ -7687,23 +7694,23 @@ have a fixed width and height (but it's not required).
     background-color: white;
     padding-bottom: 20px;
   }
-  /* line 1746, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1752, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance h3 {
     min-height: auto;
   }
-  /* line 1749, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1755, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance:nth-child(n+3) {
     display: none;
   }
-  /* line 1752, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1758, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .performance .tileFooter a {
     padding: 5px 25px;
   }
-  /* line 1755, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1761, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #view-full-season {
     display: none;
   }
-  /* line 1758, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1764, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #upcoming-shows-header,
   .template-homepage_view .portletStaticText h1 {
     background-color: #929295;
@@ -7716,62 +7723,62 @@ have a fixed width and height (but it's not required).
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 1771, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1777, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .portletStaticText h1 {
     /*margin: 0px -15px 25px -15px;*/
   }
-  /* line 1774, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1780, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #homepage-this-season {
     border-width: 0;
   }
-  /* line 1777, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1783, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #content {
     margin-top: 0;
   }
-  /* line 1780, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1786, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .portletStaticText h1,
   .template-homepage_view .portletStaticText ul {
     display: block;
   }
-  /* line 1785, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1791, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .portletStaticText ul {
     margin-bottom: 20px;
     padding-left: 20px;
   }
-  /* line 1789, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1795, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .portletStaticText ul li {
     padding-left: 8px;
     background-image: url(bullet.gif);
     background-repeat: no-repeat;
     background-position: 0 14px;
   }
-  /* line 1795, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1801, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .portletStaticText ul a {
     background-color: transparent;
     color: black;
     font-size: 20px;
     font-weight: 400;
   }
-  /* line 1801, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1807, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view .portletStaticText p a {
     text-align: center;
   }
-  /* line 1804, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1810, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-homepage_view #portal-column-two {
     margin: 0px 15px;
   }
-  /* line 1807, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1813, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar a.viewFullCalendar {
     font-size: 17px;
     text-align: left;
   }
-  /* line 1811, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1817, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .portlet.portletCalendar table td,
   .portlet.portletCalendar table th {
     font-size: 18px;
   }
   /* Season */
-  /* line 1817, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1823, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .showListing .tileItem {
     float: none;
     text-align: center;
@@ -7779,7 +7786,7 @@ have a fixed width and height (but it's not required).
     background-color: white;
     padding-bottom: 10px;
   }
-  /* line 1824, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1830, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view h1.currentSeasonTitle,
   .template-season_view #past-season h1,
   .template-season_view #past-shows h1 {
@@ -7790,35 +7797,35 @@ have a fixed width and height (but it's not required).
     padding: 10px;
     margin: 3px -45px 25px -45px;
   }
-  /* line 1835, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1841, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view #title-popejoy {
     margin-bottom: 0;
   }
-  /* line 1838, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1844, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view #main-container,
   .template-homepage_view #main-container {
     background-color: #e2e2e3;
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 1845, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1851, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem h2,
   .template-season_view .tileItem p {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 1851, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1857, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileItem h2 {
     min-height: auto;
   }
-  /* line 1854, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1860, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .template-season_view .tileFooter {
     margin-top: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   /* Show */
-  /* line 1860, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
+  /* line 1866, http://admin.popejoy:8080/Plone/++theme++copy/styles.less */
   .starburstWrapper {
     float: none;
     padding-left: 0;
