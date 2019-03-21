@@ -1530,7 +1530,6 @@ have a fixed width and height (but it's not required).
 	#portal-logo img, 
 	#portal-searchbox, 
 	#contact-popejoy,
-	#slideshow-popejoy,
 	#homepage-body-text
 	{
 		display: none;
@@ -1544,6 +1543,47 @@ have a fixed width and height (but it's not required).
     height: 76px;
     float: none;
     z-index: 1;
+	}
+	/* Homepage Slideshow */
+	.template-homepage_view #slideshow-popejoy {
+		margin-bottom: 3px;
+	}
+	#carousel,
+	#slideshow-popejoy .container,
+	#slideshow-popejoy #slideshow-popejoy-target
+	{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	#carousel {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	#carousel img,
+	#carousel .title,
+	{
+		width: 100vw;
+	}
+	#carousel .title {
+		padding: 5px 30px;
+		background-color: #48b7ae;
+		font-weight: 600;
+		font-size: 18px;
+		height: 70px;
+		line-height: 25px;
+		display: flex;
+		align-items: center;
+	}
+	#carousel .titleText {
+		padding: 0;
+	}
+	#carousel .titleText::after {
+		content: " »";
+	}
+	#carousel .buttonText {
+		display: none;
 	}
 	/* primary nav */
 	#mainnavigation-wrapper {
